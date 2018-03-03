@@ -9,6 +9,9 @@ app.prepare()
 .then(() => {
   const server = express()
 
+  server.get('/o-mne', (req, res) => { app.render(req, res, '/about') })
+  server.get('/vystavy', (req, res) => { app.render(req, res, '/exhibitions') })
+
   server.get('*', (req, res) => {
     return handle(req, res)
   })

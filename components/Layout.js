@@ -1,4 +1,5 @@
 
+import Meta from './meta'
 import Link from 'next/link'
 
 const Menu = () => (
@@ -80,6 +81,7 @@ const Header = () => (
 
 const Layout = (props) => (
   <div>
+    <Meta />
     <Header />
     {props.children}
   </div>

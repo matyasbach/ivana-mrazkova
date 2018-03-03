@@ -1,92 +1,43 @@
 
 import Meta from './meta'
-import Link from 'next/link'
-
-const Menu = () => (
-  <div className='menu'>
-    <ul>
-      <li>
-        <Link href="/portfolio">
-          <a>Portfolio</a>
-        </Link>
-      </li>
-      <li>
-        <Link as="/vystavy" href="/exhibitions">
-          <a>Výstavy</a>
-        </Link>
-      </li>
-      <li>
-        <Link as="/o-mne" href="/about">
-          <a>O mně</a>
-        </Link>
-      </li>
-    </ul>
-    <style jsx>{`
-      ul {
-        float: right;
-        margin: 0;
-      }
-
-      li {
-        margin: 0.1em;
-        display: inline-block;
-      }
-      
-      a {
-        text-decoration: none;
-        color: #444;
-        padding: 2em 1.5em 2em;
-        background: green;
-      }
-    `}</style>
-  </div>
-)
-
-const FloatClearer = () => (
-  <div>
-    <style jsx>{`
-      div {
-        clear: both;
-      }
-    `}</style>
-  </div>
-)
-
-const Header = () => (
-  <div className="header">
-    <Link href="/">
-      <a>Ivana Mrázková</a>
-    </Link>
-    <Menu />
-    <FloatClearer />
-    <style jsx>{`
-      a {
-        text-decoration: none;
-        color: #444;
-        float: left;
-        font-size: 200%;
-        font-family: 'Lovelo';
-        display: inline-block;
-        height: 100%;
-      }
-      .header {
-        max-width: 800px;
-        margin: auto;
-        background: #eee;
-        padding: 1em;
-      }
-    `}</style>
-  </div>
-)
+import Header from './header'
 
 const Layout = (props) => (
-  <div>
+  <div className="outer">
     <Meta />
-    <Header />
-    {props.children}
-  </div>
+    <div className="inner">
+      {props.header || <Header />}
+      <div className="content">
+        {props.children}
+      </div>
+    </div>
+    <style jsx>{`
+      .outer {
+        min-height: 100vh;
+        background: url('/static/images/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+      }
 
+      .inner {
+        min-height: 100vh;
+        width: 100%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media only screen and (min-width: 450px) {
+        .inner {
+          width: 90%;
+        }
+      }
+      
+      .content {
+        flex: 1;
+      }
+    `}</style>
+  </div>
 )
 
-export { Menu }
 export default Layout

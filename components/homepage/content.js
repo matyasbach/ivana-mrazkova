@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default () => (
-  <ul class="menu">
+  <ul>
     <li>
       <Link href="/portfolio">
         <a>
@@ -31,7 +31,7 @@ export default () => (
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        height: 60vh;
+        height: 50vh;
         list-style: none;
         max-width: 1200px;
         margin: auto;
@@ -53,9 +53,6 @@ export default () => (
       a span:first-child {
         font-size: 300%;
         display: block;
-      }
-      .about::before {
-        
       }
       `}</style>
     </ul>

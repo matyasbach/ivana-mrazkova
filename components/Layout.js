@@ -4,7 +4,7 @@ import Header from './header'
 
 const Layout = (props) => (
   <div className="outer">
-    <Meta />
+    <Meta title={props.title} />
     <div className="inner">
       {props.header || <Header />}
       <div className="content">
@@ -12,10 +12,14 @@ const Layout = (props) => (
       </div>
     </div>
     <style jsx>{`
-      .outer {
-        min-height: 100vh;
+      :global(body) {        
         background: url('/static/images/background.jpg') no-repeat center center fixed;
         background-size: cover;
+      }
+
+      .outer {        
+        min-height: 100vh;
+        transition: background-color 1000ms linear;
       }
 
       .inner {

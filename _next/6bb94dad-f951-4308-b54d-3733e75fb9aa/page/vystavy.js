@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/vystavy",function(){var e=webpackJsonp([4],{292:function(e,t,n){e.exports=n(293)},293:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:true});var a=n(0);var r=n.n(a);var u=n(48);t["default"]=function(){return r.a.createElement(u["a"],null,r.a.createElement("h1",null,"Výstavy"))}}},[292]);return{page:e.default}});

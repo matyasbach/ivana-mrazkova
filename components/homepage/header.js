@@ -1,6 +1,5 @@
 export default () => (
   <div>
-    <h2>malířka</h2>
     <h1>Ivana Mrázková</h1>
     <style jsx>{`
       h1, h2 {        
@@ -10,11 +9,10 @@ export default () => (
       }
 
       h1 {
+        padding: 10vh 0;
         font-size: 400%;
-        padding-bottom: 10vh;
       }
       h2 {
-        padding-top: 10vh;
         font-style: italic;
       }
     `}</style>

@@ -6,7 +6,6 @@ export default () => (
       <Link href="/portfolio">
         <a>
           <span>Portfolio</span>
-          <span>Galerie mých obrazů</span>
         </a>
       </Link>
     </li>
@@ -14,7 +13,6 @@ export default () => (
       <Link as="/vystavy" href="/exhibitions">
         <a>
           <span>Výstavy</span>
-          <span>Minulé, probíhající i plánované</span>
         </a>
       </Link>
     </li>
@@ -22,7 +20,6 @@ export default () => (
       <Link as="/o-mne" href="/about">
           <a>
             <span>O mně</span>
-            <span>Jak jsem se dostala k malování, kontakt</span>
           </a>
       </Link>
     </li>

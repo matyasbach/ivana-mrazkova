@@ -63,6 +63,8 @@ const Menu = () => (
         /*margin-right: 20vh;*/
         list-style: none;
         align-self: flex-end;
+        padding: 1em 1em 0.6em;
+        border-bottom: 2px solid black;
       }
     `}</style>
   </ul>

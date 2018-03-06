@@ -40,11 +40,11 @@ const Header = () => (
     <Menu />
     <style jsx>{`
       div {
+        margin: 0;
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 2px solid #222;
       }
       a {
         text-decoration: none;

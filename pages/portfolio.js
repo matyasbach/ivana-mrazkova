@@ -6,117 +6,113 @@ import Layout from '../components/layout'
 
 const images = [
   {
-    src: "/static/pictures/buk.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/buk.jpg",
+    name: "buk.jpg",
     width: 540,
     height: 700,
     caption: "Buk"
   },
   {
-    src: "/static/pictures/velka-destna.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/velka-destna.jpg",
+    name: "velka-destna.jpg",
     width: 700,
     height: 522,
     caption: "Velká Deštná"
   },
   {
-    src: "/static/pictures/kamenny-potok.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/kamenny-potok.jpg",
+    name: "kamenny-potok.jpg",
     width: 699,
     height: 700,
     caption: "Kamenný potok"
   },
   {
-    src: "/static/pictures/lisejniky.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/lisejniky.jpg",
+    name: "lisejniky.jpg",
     width: 507,
     height: 700,
     caption: "Lišejníky"
   },
   {
-    src: "/static/pictures/mala-upa.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/mala-upa.jpg",
+    name: "mala-upa.jpg",
     width: 700,
     height: 460,
     caption: "Malá Úpa"
   },
   {
-    src: "/static/pictures/doubrava.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/doubrava.jpg",
+    name: "doubrava.jpg",
     width: 700,
     height: 467,
     caption: "Doubrava"
   },
-  /*{
-    src: "/static/pictures/na-rosnicce.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/na-rosnicce.jpg",
-    width: 514,
-    height: 700,
-    caption: "Na rosničce"
-  },*/
   {
-    src: "/static/pictures/obri-dul.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/obri-dul.jpg",
+    name: "obri-dul.jpg",
     width: 700,
     height: 692,
     caption: "Obří důl"
   },
   {
-    src: "/static/pictures/orlicke-hory.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/orlicke-hory.jpg",
+    name: "orlicke-hory.jpg",
     width: 700,
     height: 576,
     caption: "Orlické hory"
   },
   {
-    src: "/static/pictures/tani.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/tani.jpg",
+    name: "tani.jpg",
     width: 700,
     height: 695,
     caption: "Tání"
   },{
-    src: "/static/pictures/divoka-sarka.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/divoka-sarka.jpg",
+    name: "divoka-sarka.jpg",
     width: 591,
     height: 700,
     caption: "Divoká Šárka"
   },
   {
-    src: "/static/pictures/doubrava-2.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/doubrava-2.jpg",
+    name: "doubrava-2.jpg",
     width: 584,
     height: 700,
     caption: "Doubrava"
   },
   {
-    src: "/static/pictures/jeleni-bucina.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/jeleni-bucina.jpg",
+    name: "jeleni-bucina.jpg",
     width: 570,
     height: 700,
     caption: "Jelení bučina"
   },
   {
-    src: "/static/pictures/obolce.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/obolce.jpg",
+    name: "obolce.jpg",
     width: 700,
     height: 694,
     caption: "Obolce"
   },
   {
-    src: "/static/pictures/pred-oboleckym-lesem.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/pred-oboleckym-lesem.jpg",
+    name: "pred-oboleckym-lesem.jpg",
     width: 700,
     height: 690,
     caption: "Před Oboleckým lesem"
   },
   {
-    src: "/static/pictures/svitavske-vrby.jpg",
-    thumbnail: "/static/pictures/thumbnails-h350/svitavske-vrby.jpg",
+    name: "svitavske-vrby.jpg",
     width: 506,
     height: 700,
     caption: "Svitavské vrby"
   },
 ]
+
+const imagesForLightbox = images.map(image => {
+  const imagePath = "/static/pictures/"
+  return {
+    width: image.width,
+    height: image.height,
+    caption: image.caption,
+    src: `${imagePath}1600w/${image.name}`, 
+    srcSet: [
+      `${imagePath}350w/${image.name} 350w`,
+      `${imagePath}600w/${image.name} 600w`,
+      `${imagePath}1024w/${image.name} 1024w`,
+      `${imagePath}1600w/${image.name} 1600w`,
+    ]
+  }
+})
+
+const imagesForGallery = imagesForLightbox.map(image => { return {...image, sizes: ["40vw"]} })
 
 class Portfolio extends React.Component {
   constructor() {
@@ -154,10 +150,11 @@ class Portfolio extends React.Component {
       return <ScrollLock />
   }
   render() {
+    console.log(imagesForGallery);
     return (
       <Layout title="Portfolio">
-        <Gallery photos={images} onClick={this.openLightbox} />
-        <Lightbox images={images}
+        <Gallery photos={imagesForGallery} onClick={this.openLightbox} />
+        <Lightbox images={imagesForLightbox}
           onClose={this.closeLightbox}
           onClickPrev={this.gotoPrevious}
           onClickNext={this.gotoNext}

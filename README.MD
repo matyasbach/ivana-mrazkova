@@ -13,3 +13,11 @@
  - configure package.json->scripts->start to `npm run start-unix`
  - run command `PORT=8000 npm run start`
  - you can change PORT= to whatever
+
+# How to export and deploy static website to github pages
+next build 
+&& next export 
+&& touch out/.nojekyll
+&& git add out/ 
+&& git commit -m \"Deploy Next.js to gh-pages\" 
+&& git subtree push --prefix out origin gh-pages"

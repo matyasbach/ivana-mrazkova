@@ -37,7 +37,7 @@ const Header = () => (
     <Link href="/">
       <a>Ivana Mrázková</a>
     </Link>
-    <Menu />
+    {/*<Menu />*/}
     <style jsx>{`
       div {
         margin: 0;

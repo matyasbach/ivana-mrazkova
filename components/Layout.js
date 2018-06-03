@@ -37,16 +37,16 @@ class Layout extends React.Component {
             flex-flow: column wrap;
           }
           .header {
-            background: url('/static/images/background.jpg') no-repeat center top scroll;
-            background-size: 140%;
+            background: url('/static/images/background.jpg') no-repeat center 37% scroll;
+            background-size: cover;
             padding-top: 100px;
           }
           .content {
             flex: 1;
           }
           .footer {
-            background: url('/static/images/background.jpg') no-repeat center bottom scroll;
-            background-size: 120%;
+            background: url('/static/images/background.jpg') no-repeat center 86% scroll;
+            background-size: cover;
             height: 100px;
           }
           .footer-inner {
@@ -56,13 +56,9 @@ class Layout extends React.Component {
           }
           @media only screen and (min-width: 750px) {
             .header {
-              background-size: cover;
-              background-position-y: -425px;
               padding-top: 200px;
             }
             .footer {
-              background-size: cover;
-              background-position-y: -1050px;
               height: 200px;
             }
             .footer-inner {

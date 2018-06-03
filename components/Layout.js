@@ -1,7 +1,6 @@
 import Meta from './meta'
 import Header from './header'
 import Fonts from './fonts'
-import content from './homepage/content';
 
 class Layout extends React.Component {
   componentDidMount() {

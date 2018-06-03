@@ -4,7 +4,6 @@ import Router, { withRouter } from 'next/router'
 const MenuItem = withRouter(({children, router, href}) => {
   const active = href == router.pathname || href == router.asPath
   const className = active ? 'active' : ''
-  console.log(router)
 
   return (
     <li className={className}>

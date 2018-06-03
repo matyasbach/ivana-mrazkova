@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 
 export default () => (
-  <Layout>
+  <Layout customContent="true">
     <div id="homepage">
       <div id="hole">
         <h1>Ivana Mrázková</h1>    

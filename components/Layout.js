@@ -1,6 +1,7 @@
-import Meta from './meta'
-import Header from './header'
 import Fonts from './fonts'
+import GeneralContent from './general-content'
+import Header from './header'
+import Meta from './meta'
 
 class Layout extends React.Component {
   componentDidMount() {
@@ -15,7 +16,10 @@ class Layout extends React.Component {
           {this.props.header || <Header />}
         </header>
         <main className="content">
-          {this.props.children}
+          {this.props.customContent
+            ? this.props.children
+            : <GeneralContent>{this.props.children}</GeneralContent>
+          }
         </main>
         <footer className="footer">
           <div className="footer-inner"></div>
@@ -36,7 +40,7 @@ class Layout extends React.Component {
             background: url('/static/images/background.jpg') no-repeat center top scroll;
             background-size: 140%;
             padding-top: 100px;
-          }          
+          }
           .content {
             flex: 1;
           }

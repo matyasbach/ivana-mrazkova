@@ -1,100 +1,10 @@
-import Gallery from 'react-photo-gallery';
-import Lightbox from 'react-images';
+import Gallery from 'react-photo-gallery'
+import Lightbox from 'react-images'
 import ScrollLock from 'react-scrolllock'
 
 import Layout from '../components/layout'
 
-const images = [
-  {
-    name: "buk.jpg",
-    width: 540,
-    height: 700,
-    caption: "Buk"
-  },
-  {
-    name: "velka-destna.jpg",
-    width: 700,
-    height: 522,
-    caption: "Velká Deštná"
-  },
-  {
-    name: "kamenny-potok.jpg",
-    width: 699,
-    height: 700,
-    caption: "Kamenný potok"
-  },
-  {
-    name: "lisejniky.jpg",
-    width: 507,
-    height: 700,
-    caption: "Lišejníky"
-  },
-  {
-    name: "mala-upa.jpg",
-    width: 700,
-    height: 460,
-    caption: "Malá Úpa"
-  },
-  {
-    name: "doubrava.jpg",
-    width: 700,
-    height: 467,
-    caption: "Doubrava"
-  },
-  {
-    name: "obri-dul.jpg",
-    width: 700,
-    height: 692,
-    caption: "Obří důl"
-  },
-  {
-    name: "orlicke-hory.jpg",
-    width: 700,
-    height: 576,
-    caption: "Orlické hory"
-  },
-  {
-    name: "tani.jpg",
-    width: 700,
-    height: 695,
-    caption: "Tání"
-  },{
-    name: "divoka-sarka.jpg",
-    width: 591,
-    height: 700,
-    caption: "Divoká Šárka"
-  },
-  {
-    name: "doubrava-2.jpg",
-    width: 584,
-    height: 700,
-    caption: "Doubrava"
-  },
-  {
-    name: "jeleni-bucina.jpg",
-    width: 570,
-    height: 700,
-    caption: "Jelení bučina"
-  },
-  {
-    name: "obolce.jpg",
-    width: 700,
-    height: 694,
-    caption: "Obolce"
-  },
-  {
-    name: "pred-oboleckym-lesem.jpg",
-    width: 700,
-    height: 690,
-    caption: "Před Oboleckým lesem"
-  },
-  {
-    name: "svitavske-vrby.jpg",
-    width: 506,
-    height: 700,
-    caption: "Svitavské vrby"
-  },
-]
+import images from '../static/pictures/pictures'
 
 const imagesForLightbox = images.map(image => {
   const imagePath = "/static/pictures/"
@@ -117,55 +27,93 @@ const imagesForGallery = imagesForLightbox.map(image => { return {...image, size
 class Portfolio extends React.Component {
   constructor() {
     super();
-    this.state = { currentImage: 0 };
+    this.state = {
+      currentImage: 0,
+      mobile: true
+    };
     this.closeLightbox = this.closeLightbox.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
     this.gotoNext = this.gotoNext.bind(this);
     this.gotoPrevious = this.gotoPrevious.bind(this);
   }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions = () => {
+    this.setState({ mobile: window.innerWidth < 750 });
+  }
+
   openLightbox(event, obj) {
     this.setState({
       currentImage: obj.index,
       lightboxIsOpen: true,
     });
   }
+
   closeLightbox() {
     this.setState({
       currentImage: 0,
       lightboxIsOpen: false,
     });
   }
+
   gotoPrevious() {
     this.setState({
       currentImage: this.state.currentImage - 1,
     });
   }
+
   gotoNext() {
     this.setState({
       currentImage: this.state.currentImage + 1,
     });
   }
+
   scrollLock() {
     if(this.state.lightboxIsOpen)
       return <ScrollLock />
   }
+
   render() {
-    console.log(imagesForGallery);
     return (
-      <Layout title="Portfolio">
-        <Gallery photos={imagesForGallery} onClick={this.openLightbox} />
-        <Lightbox images={imagesForLightbox}
-          onClose={this.closeLightbox}
-          onClickPrev={this.gotoPrevious}
-          onClickNext={this.gotoNext}
-          currentImage={this.state.currentImage}
-          isOpen={this.state.lightboxIsOpen}
-          preventScroll={false} // doesn't work properly, solved with ScrollLock
-        />
-        {this.scrollLock()}
-        <style jsx global>{`
-          .outer {
-            background: #ffffff;
+      <Layout title="Portfolio" customContent={true} dimmBackground={true}>
+        <div className="portfolio">
+          <Gallery
+            photos={imagesForGallery}
+            columns={this.state.mobile ? 2 : 4}
+            margin={this.state.monile ? 5 : 20}
+            onClick={this.openLightbox}
+          />
+          <Lightbox images={imagesForLightbox}
+            onClose={this.closeLightbox}
+            onClickPrev={this.gotoPrevious}
+            onClickNext={this.gotoNext}
+            currentImage={this.state.currentImage}
+            isOpen={this.state.lightboxIsOpen}
+            preventScroll={false} // doesn't work properly, solved with ScrollLock
+          />
+          {this.scrollLock()}
+        </div>
+        <style jsx>{`
+          .portfolio {
+            margin: auto;
+            padding: 25px 10px;
+            max-width: 1200px;
+          }
+          img {
+            margin: 1em;
+          }
+          @media only screen and (min-width: 750px) {
+            .portfolio {
+              padding: 70px 10px;
+            }
           }
         `}</style>
     </Layout>

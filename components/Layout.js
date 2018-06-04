@@ -39,7 +39,7 @@ class Layout extends React.Component {
           .header {
             background: url('/static/images/background.jpg') no-repeat center 37% scroll;
             background-size: cover;
-            padding-top: 100px;
+            padding-top: ${this.props.dimmBackground ? "0" : "100px"};
           }
           .content {
             flex: 1;
@@ -50,19 +50,19 @@ class Layout extends React.Component {
             height: 100px;
           }
           .footer-inner {
-            height: 35px;
+            height: ${this.props.dimmBackground ? "100%" : "35px"};
             width: 100%;
             background: rgba(233, 233, 233, 0.8);
           }
           @media only screen and (min-width: 750px) {
             .header {
-              padding-top: 200px;
+              padding-top: ${this.props.dimmBackground ? "0" : "200px"};
             }
             .footer {
               height: 200px;
             }
             .footer-inner {
-              height: 70px;
+              height: ${this.props.dimmBackground ? "100%" : "70px"};
             }
           }
         `}</style>

@@ -9,7 +9,8 @@ export default props => (
     </Head>
     <style jsx global>{`
       * {
-        box-sizing: border-box; margin: 0; padding: 0
+        box-sizing: border-box; margin: 0; padding: 0;
+        font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
     `}</style>
   </div>

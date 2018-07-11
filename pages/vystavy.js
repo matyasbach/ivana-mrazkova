@@ -2,6 +2,11 @@ import Layout from '../components/layout'
 
 export default () => (
   <Layout>
+    <h2>Aktuální výstava</h2>
+    <div className="image-wrapper">
+      <img src="../static/posters/tam-a-zpet-thambos-plzen-2018.jpg" title="Tam a zpět, Galerie Thambos - Plzeň" />
+    </div>
+
     <h2>Samostatné výstavy</h2>
     <table>
       <tbody>
@@ -39,6 +44,27 @@ export default () => (
         vertical-align: top;
         text-align: left;
         font-weight: normal;
+      }
+
+      .image-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 660px;
+      }
+
+      img {
+        height: 100%;
+        margin: auto;
+        display: block;
+        position: absolute;
+        right: 0;
+      }
+
+      @media only screen and (min-width: 750px) {
+        img {
+          position: initial;
+        }
       }
     `}</style>
   </Layout>

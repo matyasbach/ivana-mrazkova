@@ -6,7 +6,7 @@ export default () => (
   <Layout customContent={true}>
     <div id="homepage">
       <div id="hole">
-        <h1>Ivana Mrázková</h1>    
+        <h1>Ivana Mrázková</h1>
       </div>
       <ul>
         <li>

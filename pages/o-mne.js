@@ -22,7 +22,7 @@ forem je základním puzení tvorby.</p>
           <th>2014-dosud</th>
           <td>
             Akademie výtvarných umění<br />
-            Ateliér Malba III prof. Michaele Rittsteina / Ateliér Malba IV prof. Martina Mainera
+            Ateliér Malba III prof. Michaela Rittsteina / Ateliér Malba IV prof. Martina Mainera
           </td>
         </tr>
         <tr>

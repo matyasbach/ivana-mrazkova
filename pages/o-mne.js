@@ -1,4 +1,8 @@
 import Layout from '../components/layout'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default () => (
   <Layout>
@@ -32,14 +36,15 @@ forem je základním puzení tvorby.</p>
       </tbody>
     </table>
     <h2>Kontakt</h2>
-    <a href="mailto:i-mrazkova@seznam.cz">i-mrazkova@seznam.cz</a>
-    <a href="callto:00420723849747">+420 723 849 747</a>
+    <a href="mailto:i-mrazkova@seznam.cz"><span className="icon"><FontAwesomeIcon icon={faEnvelope} size="2x" fixedWidth/></span>i-mrazkova@seznam.cz</a><br/>
+    <a href="callto:00420723849747"><span className="icon"><FontAwesomeIcon icon={faMobileAlt} size="2x" fixedWidth/></span>+420 723 849 747</a><br/>
+    <a href="https://www.facebook.com/Ivana-Mrázková-2058171554193695"><span className="icon"><FontAwesomeIcon icon={faFacebookSquare} size="2x" fixedWidth/></span>Ivana Mrázková</a><br/>
+    <a href="https://www.instagram.com/ivana.mrazkova/"><span className="icon"><FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth/></span>ivana.mrazkova</a><br/>
     <style jsx>{`
       img {
         display: block;
         margin: 0 auto 25px auto;
         max-width: 100%;
-        filter: grayscale(100%);
       }
       th {
         min-width: 80px;
@@ -50,10 +55,15 @@ forem je základním puzení tvorby.</p>
       }
 
       a {
-        display: block;
+        display: inline-block;
         margin-bottom: 15px;
         color: #000;
         text-decoration: none;
+      }
+
+      a .icon {
+        vertical-align: -0.25em;
+        margin-right: 0.25em;
       }
 
       @media only screen and (min-width: 750px) {

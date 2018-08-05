@@ -2,15 +2,11 @@ import Layout from '../components/layout'
 
 export default () => (
   <Layout>
-    <h2>Aktuální výstava</h2>
-    <div className="image-wrapper">
-      <img src="../static/posters/tam-a-zpet-thambos-plzen-2018.jpg" title="Tam a zpět, Galerie Thambos - Plzeň" />
-    </div>
-
     <h2>Samostatné výstavy</h2>
     <table>
       <tbody>
-        <tr><th>            2017</th><td>Lesem Proudem Dobrá Trafika</td></tr>
+        <tr><th>            2018</th><td>Tam a zpět, Galerie Thambos, Plzeň</td></tr>
+        <tr><th>            2017</th><td>Lesem Proudem, Dobrá Trafika</td></tr>
       </tbody>
     </table>
 
@@ -26,9 +22,9 @@ export default () => (
         <tr><th>            2017</th><td>Design piknik, Počátky</td></tr>
         <tr><th rowSpan="2">2017</th><td>Malíři současnosti - Sochaři minulosti, Galerie Diamant</td></tr>
         <tr><td>                         Výstava ke 130. výročí založení spolku S.V.U. Mánes</td></tr>
-        <tr><th>            2017</th><td>Krajina 2017 Nová galerie</td></tr>
-        <tr><th>            2016</th><td>Pokoje Ateliérová výstava Malby 3</td></tr>
-        <tr><th rowSpan="2">2015</th><td>Těsně vedle Ateliérová výstava Malby 3</td></tr>
+        <tr><th>            2017</th><td>Krajina 2017, Nová galerie</td></tr>
+        <tr><th>            2016</th><td>Pokoje, Ateliérová výstava Malby 3</td></tr>
+        <tr><th rowSpan="2">2015</th><td>Těsně vedle, Ateliérová výstava Malby 3</td></tr>
         <tr><td>                         Galerie Josefa Lieslera v Kadani</td></tr>
         <tr><th>            2015</th><td>Cafe Decada v Praze společně s Terezou Zichovou</td></tr>
         <tr><th>            2015</th><td>PETROHRADSKÁ Opening season #159!</td></tr>
@@ -44,21 +40,6 @@ export default () => (
         vertical-align: top;
         text-align: left;
         font-weight: normal;
-      }
-
-      .image-wrapper {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        height: 660px;
-      }
-
-      img {
-        height: 100%;
-        margin: auto;
-        display: block;
-        position: absolute;
-        right: 0;
       }
 
       @media only screen and (min-width: 750px) {

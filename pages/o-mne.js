@@ -37,7 +37,7 @@ forem je základním puzení tvorby.</p>
     </table>
     <h2>Kontakt</h2>
     <a href="mailto:i-mrazkova@seznam.cz"><span className="icon"><FontAwesomeIcon icon={faEnvelope} size="2x" fixedWidth/></span>i-mrazkova@seznam.cz</a><br/>
-    <a href="callto:00420723849747"><span className="icon"><FontAwesomeIcon icon={faMobileAlt} size="2x" fixedWidth/></span>+420 723 849 747</a><br/>
+    <a href="callto:00420735849747"><span className="icon"><FontAwesomeIcon icon={faMobileAlt} size="2x" fixedWidth/></span>+420 735 849 747</a><br/>
     <a href="https://www.facebook.com/Ivana-Mrázková-2058171554193695"><span className="icon"><FontAwesomeIcon icon={faFacebookSquare} size="2x" fixedWidth/></span>Ivana Mrázková</a><br/>
     <a href="https://www.instagram.com/ivana.mrazkova/"><span className="icon"><FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth/></span>ivana.mrazkova</a><br/>
     <style jsx>{`

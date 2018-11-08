@@ -2,6 +2,17 @@ import Layout from '../components/layout'
 
 export default () => (
   <Layout>
+    <h2>Aktuální</h2>
+    <p>
+      MÁNES MÁNESU 2018<br />
+      Galerie Špejchar, Chomutov<br />
+      9. 11. - 8. 12. 2018<br/><br />
+      <a href="https://www.skks.cz/kultura/kulturni-akce/icalrepeat.detail/2018/11/09/441/-/manes-manesu-2018" title="Mánes Mánesu 2018" alt="Mánes Mánesu 2018">
+        https://www.skks.cz/kultura/kulturni-akce/icalrepeat.detail/2018/11/09/441/-/manes-manesu-2018
+      </a>
+    </p>
+    <img src="../static/posters/manes-manesu-spejchar-chomutov-2018.png"></img>
+
     <h2>Samostatné výstavy</h2>
     <table>
       <tbody>
@@ -31,6 +42,17 @@ export default () => (
       </tbody>
     </table>
     <style jsx>{`
+      a {
+        color: rgb(70,70,70);
+      }
+      img {
+        width: 50vw;
+        min-width: 300px;
+        max-height: 90vh;
+        object-fit: contain;
+        display: flex;
+        margin: 50px auto;
+      }
       table {
         width: 100%;
       }

@@ -5,24 +5,27 @@ import ScrollLock from 'react-scrolllock'
 import Layout from '../components/layout'
 
 import images from '../static/pictures/pictures'
+import imagesGrouped from '../static/pictures/pictures-grouped'
 
-const imagesForLightbox = images.map(image => {
-  const imagePath = "/static/pictures/"
-  return {
-    width: image.width,
-    height: image.height,
-    caption: image.caption,
-    src: `${imagePath}1600w/${image.name}`, 
-    srcSet: [
-      `${imagePath}350w/${image.name} 350w`,
-      `${imagePath}600w/${image.name} 600w`,
-      `${imagePath}1024w/${image.name} 1024w`,
-      `${imagePath}1600w/${image.name} 1600w`,
-    ]
-  }
-})
+const imagePath = "/static/pictures/"
+const groupedImagedWithSrcPaths = imagesGrouped.map(imageGroup => 
+  imageGroup.map(imageName => {
+    return {
+      ...images.find(image => image.name === imageName),
+      src: `${imagePath}1600w/${imageName}`, 
+      srcSet: [
+        `${imagePath}350w/${imageName} 350w`,
+        `${imagePath}600w/${imageName} 600w`,
+        `${imagePath}1024w/${imageName} 1024w`,
+        `${imagePath}1600w/${imageName} 1600w`,
+      ]
+    }
+  }))
 
-const imagesForGallery = imagesForLightbox.map(image => { return {...image, sizes: ["40vw"]} })
+const imagesForLightbox = [].concat(...groupedImagedWithSrcPaths)
+
+const imagesForGallery = groupedImagedWithSrcPaths.map(imageGroup =>
+  imageGroup.map(image => { return {...image, sizes: ["40vw"]} }))
 
 class Portfolio extends React.Component {
   constructor() {
@@ -52,7 +55,7 @@ class Portfolio extends React.Component {
 
   openLightbox(event, obj) {
     this.setState({
-      currentImage: obj.index,
+      currentImage: imagesForLightbox.findIndex(i => i.name === obj.photo.name),
       lightboxIsOpen: true,
     });
   }
@@ -85,12 +88,21 @@ class Portfolio extends React.Component {
     return (
       <Layout title="Portfolio" customContent={true} dimmBackground={true}>
         <div className="portfolio">
-          <Gallery
-            photos={imagesForGallery}
-            columns={this.state.mobile ? 2 : 4}
-            margin={this.state.monile ? 5 : 20}
-            onClick={this.openLightbox}
-          />
+          {
+            imagesForGallery.map(imageGroup => {
+              return (
+                <div className="image-group">
+                  <Gallery
+                    photos={imageGroup}
+                    columns={this.state.mobile ? 2 : 4}
+                    margin={this.state.mobile ? 5 : 20}
+                    onClick={this.openLightbox}
+                    />
+                </div>
+              )
+            })
+          }
+          <p style={{textAlign: "right", marginRight: "20px"}}>Nafocení obrazů: Radek&nbsp;Dětinský</p>
           <Lightbox images={imagesForLightbox}
             onClose={this.closeLightbox}
             onClickPrev={this.gotoPrevious}
@@ -106,6 +118,12 @@ class Portfolio extends React.Component {
             margin: auto;
             padding: 25px 10px;
             max-width: 1200px;
+          }
+          .image-group {
+            margin: 5em 0;
+          }
+          .image-group:first-child {
+            margin-top: 0;
           }
           img {
             margin: 1em;

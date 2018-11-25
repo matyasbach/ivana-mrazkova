@@ -1,170 +1,362 @@
 [
   {
-    "name": "kanon-ve-wadi-rum.jpg",
-    "width": 2764,
-    "height": 3573,
-    "caption": "Kaňon ve Wádí Rum"
+    "name": "adrspach.jpg",
+    "width": 3082,
+    "height": 3744,
+    "caption": "Adršpach, 2016, 40 x 65 cm, olej na plátně"
   },
   {
-    "name": "jordansko.jpg",
-    "width": 3379,
-    "height": 2805,
-    "caption": "Jordánsko"
-  },
-  {
-    "name": "wadi-rum.jpg",
-    "width": 2766,
-    "height": 2775,
-    "caption": "Wádí Rum"
-  },
-  {
-    "name": "tenerife.jpg",
-    "width": 3978,
-    "height": 2985,
-    "caption": "Tenerife"
-  },
-  {
-    "name": "velka-destna.jpg",
-    "width": 700,
-    "height": 522,
-    "caption": "Velká Deštná"
-  },
-  {
-    "name": "orlicke-hory-2.jpg",
-    "width": 2969,
-    "height": 3967,
-    "caption": "Orlické hory II"
-  },
-  {
-    "name": "orlicke-hory.jpg",
-    "width": 700,
-    "height": 576,
-    "caption": "Orlické hory"
-  },
-  {
-    "name": "obri-dul.jpg",
-    "width": 700,
-    "height": 692,
-    "caption": "Obří důl"
-  },
-  {
-    "name": "kamenny-potok.jpg",
-    "width": 699,
-    "height": 700,
-    "caption": "Kamenný potok"
-  },
-  {
-    "name": "mala-upa.jpg",
-    "width": 700,
-    "height": 460,
-    "caption": "Malá Úpa"
-  },
-  {
-    "name": "lisejniky.jpg",
-    "width": 507,
-    "height": 700,
-    "caption": "Lišejníky"
-  },
-  {
-    "name": "pred-oboleckym-lesem.jpg",
-    "width": 700,
-    "height": 690,
-    "caption": "Před Oboleckým lesem"
-  },
-  {
-    "name": "doubrava-2.jpg",
-    "width": 584,
-    "height": 700,
-    "caption": "Doubrava II"
+    "name": "berchtesgaden.jpg",
+    "width": 4042,
+    "height": 2336,
+    "caption": "Berchtesgaden, 2018, 110 x 70 cm, olej na plátně"
   },
   {
     "name": "divoka-sarka.jpg",
-    "width": 591,
-    "height": 700,
-    "caption": "Divoká Šárka"
+    "width": 2830,
+    "height": 3351,
+    "caption": "Divoká Šárka, 2017, 25 x 30 cm, olej na plátně, soukromá sbírka"
   },
   {
     "name": "doubrava.jpg",
-    "width": 700,
-    "height": 467,
-    "caption": "Doubrava"
+    "width": 2741,
+    "height": 3172,
+    "caption": "Doubrava, 2016, 35 x 45 cm, olej na plátně, soukromá sbírka"
   },
   {
-    "name": "tani.jpg",
-    "width": 700,
-    "height": 695,
-    "caption": "Tání"
+    "name": "doubravka-2.jpg",
+    "width": 2438,
+    "height": 3737,
+    "caption": "Doubravka, 2016, 20 x 30 cm, olej na plátně, soukromá sbírka"
   },
   {
-    "name": "svitavske-vrby.jpg",
-    "width": 506,
-    "height": 700,
-    "caption": "Svitavské vrby"
+    "name": "doubravka.jpg",
+    "width": 2810,
+    "height": 3368,
+    "caption": "Doubravka, 2017, 25 x 30 cm, olej na plátně"
   },
   {
-    "name": "na-rosnicce.jpg",
-    "width": 2800,
-    "height": 3810,
-    "caption": "Na Rosničce"
+    "name": "dub.jpg",
+    "width": 3268,
+    "height": 4219,
+    "caption": "Dub, 2016, 140 x 180 cm, olej na plátně"
   },
   {
-    "name": "obolce.jpg",
-    "width": 700,
-    "height": 694,
-    "caption": "Obolce"
+    "name": "fairy-pools.jpg",
+    "width": 3595,
+    "height": 2994,
+    "caption": "Fairy Pools, 2018, 180 x 160 cm, olej na plátně"
   },
   {
-    "name": "cesta-do-obolcu.jpg",
-    "width": 2916,
-    "height": 2888,
-    "caption": "Cesta do Obolců"
-  },
-  {
-    "name": "krkonose.jpg",
-    "width": 2955,
-    "height": 3964,
-    "caption": "Krkonoše"
-  },
-  {
-    "name": "buk.jpg",
-    "width": 540,
-    "height": 700,
-    "caption": "Buk"
-  },
-  {
-    "name": "po-desti.jpg",
-    "width": 3390,
-    "height": 2822,
-    "caption": "Po dešti"
-  },
-  {
-    "name": "les-u-kratke-vsi.jpg",
-    "width": 2990,
-    "height": 2997,
-    "caption": "Les u Krátké Vsi"
+    "name": "choteborsky-buk.jpg",
+    "width": 3150,
+    "height": 4085,
+    "caption": "Chotěbořský buk, 2016, 140 x 180 cm, olej na plátně"
   },
   {
     "name": "jeleni-bucina-2.jpg",
     "width": 3029,
     "height": 3039,
-    "caption": "Jelení bučina II"
+    "caption": "Jelení bučina II, 2016, 30 x 30 cm, olej na plátně"
   },
   {
     "name": "jeleni-bucina.jpg",
-    "width": 570,
-    "height": 700,
-    "caption": "Jelení bučina"
+    "width": 2899,
+    "height": 3561,
+    "caption": "Jelení bučina I, 2016, 20 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "jeseniky.jpg",
+    "width": 2875,
+    "height": 2885,
+    "caption": "Jeseníky, 2016, 20 x 20 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "jevansky-les.jpg",
+    "width": 2849,
+    "height": 2857,
+    "caption": "Jevanský les, 2016, 35 x 35 cm, olej na plátně"
+  },
+  {
+    "name": "jordansko.jpg",
+    "width": 3379,
+    "height": 2805,
+    "caption": "Jordánsko, 2018, 30 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "kalkalpen.jpg",
+    "width": 2514,
+    "height": 2883,
+    "caption": "Kalkalpen, 2017, 30 x 40 cm, olej na plátně"
+  },
+  {
+    "name": "kamenny-potok.jpg",
+    "width": 2879,
+    "height": 2884,
+    "caption": "Kamenný potok, 2017, 45 x 45 cm, olej na plátně"
+  },
+  {
+    "name": "kamenny-potok-2.jpg",
+    "width": 4372,
+    "height": 2753,
+    "caption": "Kamenný potok, 2017, 110 x 70 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "kanon-ve-wadi-rum.jpg",
+    "width": 2764,
+    "height": 3573,
+    "caption": "Kaňon ve Wadi Rum, 2018, 35 x 45 cm, olej na plátně"
+  },
+  {
+    "name": "krkonose.jpg",
+    "width": 2955,
+    "height": 3964,
+    "caption": "Krkonoše, 2016, 30 x 45 cm, olej na plátně"
+  },
+  {
+    "name": "krkonose-2.jpg",
+    "width": 3609,
+    "height": 2899,
+    "caption": "Krkonoše, 2016, 50 x 40 cm, olej na plátně"
+  },
+  {
+    "name": "krtinsky-potok.jpg",
+    "width":  720,
+    "height":  562,
+    "caption": "Křtinský potok, 2016, 115 x 70 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "les-u-kratke-vsi.jpg",
+    "width": 2990,
+    "height": 2997,
+    "caption": "Les u Krátké Vsi, 2016, 25 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "les-u-stribrnych-hor.jpg",
+    "width": 2821,
+    "height": 3971,
+    "caption": "Les u Stříbrných hor, 2016, 30 x 40 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "lesni-zatisi.jpg",
+    "width": 2567,
+    "height": 4852,
+    "caption": "Lesní zátiší, 2016, 50 x 100 cm, soukromá sbírka"
   },
   {
     "name": "lovetinska-rokle.jpg",
     "width": 3030,
     "height": 3047,
-    "caption": "Lovětínská rokle"
+    "caption": "Lovětínská rokle, 2017, 35 x 35 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "mala-upa.jpg",
+    "width": 1600,
+    "height": 1051,
+    "caption": "Malá Úpa, 2017, 40 x 30 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "masca.jpg",
+    "width": 3459,
+    "height": 2765,
+    "caption": "Masca, 2018, 25 x 20 cm, olej na plátně"
+  },
+  {
+    "name": "mumlavsky-vodopad.jpg",
+    "width": 2745,
+    "height": 2421,
+    "caption": "Mumlavský vodopád, 2017, 40 x 35 cm, olej na plátně"
+  },
+  {
+    "name": "na-rosnicce.jpg",
+    "width": 2800,
+    "height": 3810,
+    "caption": "Na Rosničce, 2016, 95 x 130 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "novohradske-hory.jpg",
+    "width": 5570,
+    "height": 4639,
+    "caption": "Novohradské hory, 2017, 25 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "obolce.jpg",
+    "width": 2916,
+    "height": 2888,
+    "caption": "Obolce, 2016, 50 x 50 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "obolecky-les.jpg",
+    "width": 3136,
+    "height": 3652,
+    "caption": "Obolecký les, 2016, 180 x 210 cm, olej na plátně"
+  },
+  {
+    "name": "obolecky-potok.jpg",
+    "width": 2661,
+    "height": 3222,
+    "caption": "Obolecký potok, 2017, 20 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "obri-dul.jpg",
+    "width": 1757,
+    "height": 1758,
+    "caption": "Obří Důl, 2018, 20 x 20 cm, olej na plátně"
+  },
+  {
+    "name": "orlicke-hory.jpg",
+    "width": 3777,
+    "height": 3110,
+    "caption": "Orlické hory, 2017, 55 x 45 cm, olej na plátně"
+  },
+  {
+    "name": "orlicke-hory-2.jpg",
+    "width": 2096,
+    "height": 2837,
+    "caption": "Orlické hory, 2017, 30 x 40 cm, olej na plátně"
+  },
+  {
+    "name": "orlicke-hory-3.jpg",
+    "width": 3546,
+    "height": 2336,
+    "caption": "Orlické hory, 2017, 45 x 30 cm, olej na plátně"
+  },
+  {
+    "name": "parizov.jpg",
+    "width": 2268,
+    "height": 2911,
+    "caption": "Pařížov, 2016, 35 x 45 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "petra.jpg",
+    "width": 3288,
+    "height": 2857,
+    "caption": "Petra, 2018, 40 x 35 cm, olej na plátně"
+  },
+  {
+    "name": "po-desti.jpg",
+    "width": 3390,
+    "height": 2822,
+    "caption": "Po dešti, 2016, 30 x 25 cm, olej na plátně"
+  },
+  {
+    "name": "po-desti-2.jpg",
+    "width": 2630,
+    "height": 4015,
+    "caption": "Po dešti, 2016, 20 x 30 cm, 2016, olej na plátně"
   },
   {
     "name": "polom.jpg",
     "width": 3119,
     "height": 3130,
-    "caption": "Polom"
+    "caption": "Polom, 2016, 45 x 45 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "potok.jpg",
+    "width": 2386,
+    "height": 2715,
+    "caption": "Potok, 2017, 30 x 40 cm, olej na plátně"
+  },
+  {
+    "name": "pred-oboleckym-lesem.jpg",
+    "width": 2412,
+    "height": 2378,
+    "caption": "Před Oboleckým lesem, 2016, 20 x 20 cm, olej na plátně"
+  },
+  {
+    "name": "reka-v-matrei.jpg",
+    "width": 2700,
+    "height": 2691,
+    "caption": "Řeka v Matrei, 2016, 110 x 110 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "rokle-doubravy.jpg",
+    "width": 3656,
+    "height": 2402,
+    "caption": "Rokle Doubravy, 2016, 30 x 20 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "rokle-doubravy-2.jpg",
+    "width": 2426,
+    "height": 3633,
+    "caption": "Rokle Doubravy, 2016, 20 x 30 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "rybnik-v-novohradskych-horach.jpg",
+    "width": 3808,
+    "height": 2736,
+    "caption": "Rybník v Novohradských horách, 2017, 50 x 40 cm, olej na plátně"
+  },
+  {
+    "name": "skalni-potok.jpg",
+    "width": 3677,
+    "height": 2393,
+    "caption": "Skalní potok, 2017, 45 x 30 cm, olej na plátně"
+  },
+  {
+    "name": "svitavske-vrby.jpg",
+    "width": 2783,
+    "height": 3853,
+    "caption": "Svitavské vrby, 95 x 130 cm, olej na plátně"
+  },
+  {
+    "name": "tani.jpg",
+    "width": 2794,
+    "height": 2792,
+    "caption": "Tání, 2017, 35 x 35 cm, olej na plátně, soukromá sbírka"
+  },
+  {
+    "name": "tenerife.jpg",
+    "width": 3978,
+    "height": 2985,
+    "caption": "Tenerife, 2018, 80 x 60 cm, olej na plátně"
+  },
+  {
+    "name": "udoli-doubravy.jpg",
+    "width": 4008,
+    "height": 2673,
+    "caption": "Údolí Doubravy, 2017, 30 x 20 cm, olej na plátně"
+  },
+  {
+    "name": "v-obolcich.jpg",
+    "width": 2946,
+    "height": 2919,
+    "caption": "V Obolcích, 2016, 50 x 50 cm, olej na plátně"
+  },
+  {
+    "name": "velka-destna.jpg",
+    "width": 4013,
+    "height": 2994,
+    "caption": "Velká Deštná, 2017, 40 x 30 cm, olej na plátně"
+  },
+  {
+    "name": "vodopad.jpg",
+    "width": 2711,
+    "height": 3940,
+    "caption": "Vodopád, 2018, 145 x 210 cm, olej na plátně"
+  },
+  {
+    "name": "wadi-rum.jpg",
+    "width": 2766,
+    "height": 2775,
+    "caption": "Wadi Rum, 2018, 18 x 18 cm, olej na plátně"
+  },
+  {
+    "name": "wadi-rum-2.jpg",
+    "width": 3528,
+    "height": 2645,
+    "caption": "Wadi Rum, 2018, 40 x 35 cm, olej na plátně"
+  },
+  {
+    "name": "wadi-rum-3.jpg",
+    "width": 3534,
+    "height": 1988,
+    "caption": "Wadi Rum, 2018, 40 x 20 cm, olej na plátně"
+  },
+  {
+    "name": "zimni.jpg",
+    "width": 3420,
+    "height": 2662,
+    "caption": "Zimní, 2018, 180 x 140 cm, olej na plátně"
   }
 ]

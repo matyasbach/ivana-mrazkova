@@ -86,7 +86,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <Layout title="Portfolio" customContent={true} dimmBackground={true}>
+      <Layout title="Portfolio" customContent={true} dimmBackground={false}>
         <div className="portfolio">
           {
             imagesForGallery.map(imageGroup => {

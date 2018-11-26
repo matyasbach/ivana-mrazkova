@@ -110,6 +110,11 @@ class Portfolio extends React.Component {
             currentImage={this.state.currentImage}
             isOpen={this.state.lightboxIsOpen}
             preventScroll={false} // doesn't work properly, solved with ScrollLock
+            width={1600}
+            closeButtonTitle="Zavřít (Esc)"
+            imageCountSeparator=" z "
+            leftArrowTitle="Předchozí (klávesa šipka vlevo)"
+            rightArrowTitle="Další (klávesa šipka vpravo)"
           />
           {this.scrollLock()}
         </div>

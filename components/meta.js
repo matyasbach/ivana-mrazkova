@@ -12,6 +12,7 @@ export default props => (
       * {
         box-sizing: border-box; margin: 0; padding: 0;
         font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
       }
     `}</style>
   </div>

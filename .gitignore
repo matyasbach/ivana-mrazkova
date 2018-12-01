@@ -2,3 +2,5 @@
 node_modules
 *.log
 out
+
+**/static/pictures/original/*

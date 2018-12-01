@@ -4,6 +4,16 @@ export default () => (
   <Layout>
     <h2>Aktuální</h2>
     <p>
+      KRAJINA<br />
+      JazyGo, Praha<br />
+      3. 12. - 20. 12. 2018<br/><br />
+      <a href="https://www.facebook.com/events/365746930862813" title="Krajina 2018" alt="Krajina 2018">
+        https://www.facebook.com/events/365746930862813
+      </a>
+    </p>
+    <img src="../static/posters/krajina-jazygo-praha-2018.jpg"></img>
+
+    <p>
       MÁNES MÁNESU 2018<br />
       Galerie Špejchar, Chomutov<br />
       9. 11. - 8. 12. 2018<br/><br />
@@ -12,6 +22,15 @@ export default () => (
       </a>
     </p>
     <img src="../static/posters/manes-manesu-spejchar-chomutov-2018.png"></img>
+
+    <h2>Plánované</h2>
+    <table>
+      <tbody>
+        <tr><th>            2019</th><td>Výstava na Ministersvu zemědělství, Praha<br />8. 1. 2019 od 15 hod</td></tr>
+        <tr><th>            2019</th><td>Výstava v Galerii České spořitelny, Praha<br/>17. 1. 2019 až 31. 3. 2019</td></tr>
+        <tr><th>            2019</th><td>Výstava v Komunitním centru Háta, Ledeč nad Sázavou<br/>od 21. 2. 2019</td></tr>
+      </tbody>
+    </table>
 
     <h2>Samostatné výstavy</h2>
     <table>

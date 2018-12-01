@@ -1,13 +1,8 @@
-import Fonts from './fonts'
 import GeneralContent from './general-content'
 import Header from './header'
 import Meta from './meta'
 
 class Layout extends React.Component {
-  componentDidMount() {
-    Fonts()
-  }
-
   render() {
     return (
       <div className="wrapper">
@@ -25,6 +20,7 @@ class Layout extends React.Component {
           <div className="footer-inner"></div>
         </footer>
         <style jsx global>{`
+          @import url('https://fonts.googleapis.com/css?family=Roboto:300');
           @font-face {
             font-family: 'AgencyFB';
             src: url('../../static/fonts/Agency_FB.ttf') format('truetype');

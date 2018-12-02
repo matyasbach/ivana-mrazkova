@@ -63,6 +63,7 @@ export default () => (
     <style jsx>{`
       a {
         color: rgb(70,70,70);
+        overflow-wrap: break-word;
       }
       img {
         width: 50vw;

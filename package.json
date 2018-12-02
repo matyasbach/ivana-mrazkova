@@ -9,19 +9,19 @@
     "@fortawesome/free-regular-svg-icons": "^5.5.0",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
     "@fortawesome/react-fontawesome": "0.1.0-11",
+    "@zeit/next-css": "^1.0.1",
     "cross-env": "^5.2.0",
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-images": "^0.5.19",
-    "react-photo-gallery": "^6.2.2",
-    "react-scrolllock": "^2.0.7"
+    "react-image-lightbox": "github:Resumane/react-image-lightbox#fix-umd-bug",
+    "react-photo-gallery": "^6.2.2"
   },
   "devDependencies": {},
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export",
+    "export": "npm run build && next export",
     "start-unix": "next start -p $PORT",
     "start-windows": "next start -p %PORT%",
     "start": "npm run start-windows"

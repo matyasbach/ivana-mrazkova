@@ -2,6 +2,8 @@ import GeneralContent from './general-content'
 import Header from './header'
 import Meta from './meta'
 
+import 'react-image-lightbox/style.css' // used at portfolio page only, needs to be here until https://github.com/zeit/next-plugins/issues/282 is solved 
+
 class Layout extends React.Component {
   render() {
     return (
@@ -30,7 +32,7 @@ class Layout extends React.Component {
           .wrapper {
             min-height: 100vh;
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: column;
           }
           .header {
             background: url('/static/images/background.jpg') no-repeat center 37% scroll;

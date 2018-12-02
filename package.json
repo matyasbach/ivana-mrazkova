@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export",
+    "export": "npm run build && next export",
     "start-unix": "next start -p $PORT",
     "start-windows": "next start -p %PORT%",
     "start": "npm run start-windows"

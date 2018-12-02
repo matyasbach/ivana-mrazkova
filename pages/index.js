@@ -17,14 +17,14 @@ export default () => (
           </Link>
         </li>
         <li>
-          <Link as="/vystavy" href="/exhibitions">
+          <Link href="/vystavy">
             <a>
               <span>Výstavy</span>
             </a>
           </Link>
         </li>
-        <li className="about">
-          <Link as="/o-mne" href="/about">
+        <li>
+          <Link href="/o-mne">
               <a>
                 <span>O mně / Kontakt</span>
               </a>

@@ -32,7 +32,7 @@ class Layout extends React.Component {
           .wrapper {
             min-height: 100vh;
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: column;
           }
           .header {
             background: url('/static/images/background.jpg') no-repeat center 37% scroll;

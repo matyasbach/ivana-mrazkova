@@ -2,6 +2,8 @@ import GeneralContent from './general-content'
 import Header from './header'
 import Meta from './meta'
 
+import 'react-image-lightbox/style.css' // used at portfolio page only, needs to be here until https://github.com/zeit/next-plugins/issues/282 is solved 
+
 class Layout extends React.Component {
   render() {
     return (

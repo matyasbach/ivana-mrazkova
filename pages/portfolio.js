@@ -1,6 +1,5 @@
 import Gallery from 'react-photo-gallery'
-import Lightbox from 'react-images'
-import ScrollLock from 'react-scrolllock'
+import Lightbox from 'react-image-lightbox';
 
 import Layout from '../components/layout'
 
@@ -32,7 +31,8 @@ class Portfolio extends React.Component {
     super();
     this.state = {
       currentImage: 0,
-      mobile: true
+      lightboxIsOpened: false,
+      isMobile: true
     };
     this.closeLightbox = this.closeLightbox.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
@@ -50,52 +50,93 @@ class Portfolio extends React.Component {
   }
 
   updateWindowDimensions = () => {
-    this.setState({ mobile: window.innerWidth < 750 });
+    this.setState({ isMobile: window.innerWidth < 750 });
   }
 
   openLightbox(event, obj) {
     this.setState({
       currentImage: imagesForLightbox.findIndex(i => i.name === obj.photo.name),
-      lightboxIsOpen: true,
+      lightboxIsOpened: true,
     });
   }
 
   closeLightbox() {
     this.setState({
       currentImage: 0,
-      lightboxIsOpen: false,
+      lightboxIsOpened: false,
     });
   }
 
   gotoPrevious() {
-    this.setState({
-      currentImage: this.state.currentImage - 1,
-    });
+    this.setState(prevState => ({
+      currentImage: Math.max(prevState.currentImage - 1, 0),
+    }));
   }
 
   gotoNext() {
-    this.setState({
-      currentImage: this.state.currentImage + 1,
-    });
+    this.setState(prevState => ({
+      currentImage: Math.min(prevState.currentImage + 1, imagesForLightbox.length - 1),
+    }));
   }
 
-  scrollLock() {
-    if(this.state.lightboxIsOpen)
-      return <ScrollLock />
-  }
+  renderLightbox() {
+    const { currentImage } = this.state;
+    const nextSrc = currentImage < imagesForLightbox.length - 1
+      ? imagesForLightbox[currentImage + 1].src : null;
+    const prevSrc = currentImage > 0
+      ? imagesForLightbox[currentImage - 1].src : null;
 
+    return (
+      <React.Fragment>
+        <Lightbox
+          mainSrc={imagesForLightbox[currentImage].src}
+          nextSrc={nextSrc}
+          prevSrc={prevSrc}
+          onCloseRequest={this.closeLightbox}
+          onMovePrevRequest={this.gotoPrevious}
+          onMoveNextRequest={this.gotoNext}
+          imageCaption={imagesForLightbox[currentImage].caption}
+          imagePadding={this.state.isMobile ? 0 : 40}
+          imageLoadErrorMessage="Obraz se nepovedlo načíst :/"
+          prevLabel="Předchozí obraz"
+          nextLabel="Další obraz"
+          zoomInLabel="Příblížit"
+          zoomOutLabel="Oddálit"
+          closeLabel="Zavřít"
+        />
+        <style jsx global>{`
+          .ril-caption, .ril-toolbar {
+            background: transparent;
+          }
+          .ril-toolbar button {
+            outline-color: transparent;
+          }
+          .ril-prev-button, .ril-next-button {
+            background-color: transparent;
+            outline-color: transparent;
+          }
+          .ril-caption-content {
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 4px 4px 0 0;
+          }
+        `}</style>
+      </React.Fragment>
+    )
+  }
+  
   render() {
     return (
       <Layout title="Portfolio" customContent={true} dimmBackground={false}>
         <div className="portfolio">
           {
-            imagesForGallery.map(imageGroup => {
+            imagesForGallery.map((imageGroup, i) => {
               return (
-                <div className="image-group">
+                <div className="image-group" key={`group-${i}`}>
                   <Gallery
                     photos={imageGroup}
-                    columns={this.state.mobile ? 2 : 4}
-                    margin={this.state.mobile ? 5 : 20}
+                    columns={this.state.isMobile ? 2 : 4}
+                    margin={this.state.isMobile ? 5 : 20}
                     onClick={this.openLightbox}
                     />
                 </div>
@@ -103,20 +144,7 @@ class Portfolio extends React.Component {
             })
           }
           <p style={{textAlign: "right", marginRight: "20px"}}>Nafocení obrazů: Radek&nbsp;Dětinský</p>
-          <Lightbox images={imagesForLightbox}
-            onClose={this.closeLightbox}
-            onClickPrev={this.gotoPrevious}
-            onClickNext={this.gotoNext}
-            currentImage={this.state.currentImage}
-            isOpen={this.state.lightboxIsOpen}
-            preventScroll={false} // doesn't work properly, solved with ScrollLock
-            width={1600}
-            closeButtonTitle="Zavřít (Esc)"
-            imageCountSeparator=" z "
-            leftArrowTitle="Předchozí (klávesa šipka vlevo)"
-            rightArrowTitle="Další (klávesa šipka vpravo)"
-          />
-          {this.scrollLock()}
+          {this.state.lightboxIsOpened && this.renderLightbox()}
         </div>
         <style jsx>{`
           .portfolio {

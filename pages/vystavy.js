@@ -4,38 +4,29 @@ export default () => (
   <Layout>
     <h2>Aktuální</h2>
     <p>
-      KRAJINA<br />
-      JazyGo, Praha<br />
-      3. 12. - 20. 12. 2018<br/><br />
-      <a href="https://www.facebook.com/events/365746930862813" title="Krajina 2018" alt="Krajina 2018">
-        https://www.facebook.com/events/365746930862813
+      Pohled do krajiny<br />
+      Galerie České spořitelny, Praha<br />
+      17. 1. - 31. 3. 2019<br/><br />
+      <a href="https://www.facebook.com/events/218410899099358/" title="Pohled do krajiny 2019">
+        https://www.facebook.com/events/218410899099358/
       </a>
     </p>
-    <img src="../static/posters/krajina-jazygo-praha-2018.jpg"></img>
-
-    <p>
-      MÁNES MÁNESU 2018<br />
-      Galerie Špejchar, Chomutov<br />
-      9. 11. - 8. 12. 2018<br/><br />
-      <a href="https://www.skks.cz/kultura/kulturni-akce/icalrepeat.detail/2018/11/09/441/-/manes-manesu-2018" title="Mánes Mánesu 2018" alt="Mánes Mánesu 2018">
-        https://www.skks.cz/kultura/kulturni-akce/icalrepeat.detail/2018/11/09/441/-/manes-manesu-2018
-      </a>
-    </p>
-    <img src="../static/posters/manes-manesu-spejchar-chomutov-2018.png"></img>
+    <img src="../static/posters/pohled-do-krajiny-gcs-2019.jpg" alt="Pozvánka na výstavu Pohled do krajiny 2019"></img>
 
     <h2>Plánované</h2>
     <table>
       <tbody>
-        <tr><th>            2019</th><td>Výstava na Ministersvu zemědělství, Praha<br />8. 1. 2019 od 15 hod</td></tr>
-        <tr><th>            2019</th><td>Výstava v Galerii České spořitelny, Praha<br/>17. 1. 2019 až 31. 3. 2019</td></tr>
-        <tr><th>            2019</th><td>Výstava v Komunitním centru Háta, Ledeč nad Sázavou<br/>od 21. 2. 2019</td></tr>
+        <tr><th>            2019</th><td>Výstava v Komunitním centru Háta, Ledeč nad Sázavou<br/>vernisáž 21. 2. 2019 ve 13 hodin</td></tr>
       </tbody>
     </table>
 
     <h2>Samostatné výstavy</h2>
     <table>
       <tbody>
+        <tr><th>            2019</th><td>Putování krajinou, Ministertvo zemědělství, Praha</td></tr>
+        <tr><th>            2018</th><td>Krajina, JazyGo, Praha</td></tr>
         <tr><th>            2018</th><td>Tam a zpět, Galerie Thambos, Plzeň</td></tr>
+        <tr><th>            2018</th><td>Náruč lesa, Ministertvo zemědělství, Praha</td></tr>
         <tr><th>            2017</th><td>Lesem Proudem, Dobrá Trafika</td></tr>
       </tbody>
     </table>
@@ -43,11 +34,12 @@ export default () => (
     <h2>Skupinové výstavy</h2>
     <table>
       <tbody>
+        <tr><th>            2018</th><td>Mánes Mánesu, Galerie Špejchar, Chomutov</td></tr>
         <tr><th rowSpan="2">2018</th><td>Rozbřesk - současná krajinomalba</td></tr>
         <tr><td>                         Východočeská galerie v Pardubicích</td></tr>
         <tr><th>            2018</th><td>Art Prague, Clam-Gallasův palác, Praha</td></tr>
         <tr><th>            2018</th><td>Členská výstava S. V. U. Mánes, Galerie Diamant</td></tr>
-        <tr><th>            2017</th><td>Světlo v obraz: český impresionismus, Jízdárna Pražského hradu</td></tr>
+        <tr><th>            2017</th><td>Světlo v obraze: český impresionismus, Jízdárna Pražského hradu</td></tr>
         <tr><th>            2017</th><td>ATRIBUT, Galerie J°CEJKA, Praha</td></tr>
         <tr><th>            2017</th><td>Design piknik, Počátky</td></tr>
         <tr><th rowSpan="2">2017</th><td>Malíři současnosti - Sochaři minulosti, Galerie Diamant</td></tr>

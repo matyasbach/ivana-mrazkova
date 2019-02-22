@@ -4,6 +4,13 @@ export default () => (
   <Layout>
     <h2>Aktuální</h2>
     <p>
+      Lesem i vodou<br />
+      KC Háta, Ledeč nad Sázavou<br />
+      21. 2. - 22. 3. 2019<br /><br />
+    </p>
+    <img src="../static/posters/lesem-i-vodou-kc-hata-ledec-2019.jpg" alt="Pozvánka na výstavu Lesem i vodou 2019"></img>
+
+    <p>
       Pohled do krajiny<br />
       Galerie České spořitelny, Praha<br />
       17. 1. - 31. 3. 2019<br/><br />
@@ -16,13 +23,14 @@ export default () => (
     <h2>Plánované</h2>
     <table>
       <tbody>
-        <tr><th>            2019</th><td>Výstava v Komunitním centru Háta, Ledeč nad Sázavou<br/>vernisáž 21. 2. 2019 ve 13 hodin</td></tr>
+        <tr><th>            2019</th><td>Festival Polabský Montmartre, Brandýs nad Labem</td></tr>
       </tbody>
     </table>
 
     <h2>Samostatné výstavy</h2>
     <table>
       <tbody>
+        <tr><th>            2019</th><td>Lesem i vodou, Komunitní centrum Háta, Ledeč nad Sázavou</td></tr>
         <tr><th>            2019</th><td>Putování krajinou, Ministertvo zemědělství, Praha</td></tr>
         <tr><th>            2018</th><td>Krajina, JazyGo, Praha</td></tr>
         <tr><th>            2018</th><td>Tam a zpět, Galerie Thambos, Plzeň</td></tr>
@@ -34,6 +42,7 @@ export default () => (
     <h2>Skupinové výstavy</h2>
     <table>
       <tbody>
+        <tr><th>            2019</th><td>Pohled do krajiny, Galerie České spořitelny, Praha</td></tr>
         <tr><th>            2018</th><td>Mánes Mánesu, Galerie Špejchar, Chomutov</td></tr>
         <tr><th rowSpan="2">2018</th><td>Rozbřesk - současná krajinomalba</td></tr>
         <tr><td>                         Východočeská galerie v Pardubicích</td></tr>

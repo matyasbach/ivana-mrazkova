@@ -4,26 +4,27 @@ export default () => (
   <Layout>
     <h2>Aktuální</h2>
     <p>
-      Lesem i vodou<br />
-      KC Háta, Ledeč nad Sázavou<br />
-      21. 2. - 22. 3. 2019<br /><br />
-    </p>
-    <img src="../static/posters/lesem-i-vodou-kc-hata-ledec-2019.jpg" alt="Pozvánka na výstavu Lesem i vodou 2019"></img>
-
-    <p>
-      Pohled do krajiny<br />
-      Galerie České spořitelny, Praha<br />
-      17. 1. - 31. 3. 2019<br/><br />
-      <a href="https://www.facebook.com/events/218410899099358/" title="Pohled do krajiny 2019">
-        https://www.facebook.com/events/218410899099358/
+      Generace<br />
+      Galerie Kooperativy, Praha<br />
+      26. 4. - 23. 8. 2019<br /><br />
+      <a href="http://www.svumanes.cz/aktuality/item/265-pripravujeme-vystavu-generace" title="S.V.Ú. Mánes - Připravujeme výstavu Generace Mánesa">
+        http://www.svumanes.cz/aktuality/item/265-pripravujeme-vystavu-generace
       </a>
     </p>
-    <img src="../static/posters/pohled-do-krajiny-gcs-2019.jpg" alt="Pozvánka na výstavu Pohled do krajiny 2019"></img>
+    <img src="../static/posters/generace-kooperativa-praha-2019.png" alt="Pozvánka na výstavu Generace 2019"></img>
 
     <h2>Plánované</h2>
     <table>
       <tbody>
-        <tr><th>            2019</th><td>Festival Polabský Montmartre, Brandýs nad Labem</td></tr>
+        <tr>
+          <th>2019</th>
+          <td>
+            Festival Polabský Montmartre, Brandýs nad Labem<br/>
+            1. 6. 2019 od 10 do 20 hodin<br/>
+            <a href="https://www.facebook.com/events/540310869783558/" title="Událost na Facebooku - Festival Polabský Montmartre">
+              https://www.facebook.com/events/540310869783558/
+            </a>
+          </td></tr>
       </tbody>
     </table>
 
@@ -31,10 +32,10 @@ export default () => (
     <table>
       <tbody>
         <tr><th>            2019</th><td>Lesem i vodou, Komunitní centrum Háta, Ledeč nad Sázavou</td></tr>
-        <tr><th>            2019</th><td>Putování krajinou, Ministertvo zemědělství, Praha</td></tr>
+        <tr><th>            2019</th><td>Putování krajinou, Ministerstvo zemědělství, Praha</td></tr>
         <tr><th>            2018</th><td>Krajina, JazyGo, Praha</td></tr>
         <tr><th>            2018</th><td>Tam a zpět, Galerie Thambos, Plzeň</td></tr>
-        <tr><th>            2018</th><td>Náruč lesa, Ministertvo zemědělství, Praha</td></tr>
+        <tr><th>            2018</th><td>Náruč lesa, Ministerstvo zemědělství, Praha</td></tr>
         <tr><th>            2017</th><td>Lesem Proudem, Dobrá Trafika</td></tr>
       </tbody>
     </table>

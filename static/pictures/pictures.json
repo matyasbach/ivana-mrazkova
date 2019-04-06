@@ -12,6 +12,18 @@
     "caption": "Berchtesgaden, 2018, 120 x 70 cm, olej na plátně"
   },
   {
+    "name": "cuillinske-hory.jpg",
+    "width": 6726,
+    "height": 5123,
+    "caption": "Cuillinské hory, 2018, 130 x 110 cm, olej na plátně"
+  },
+  {
+    "name": "divjaka.jpg",
+    "width": 5102,
+    "height": 4261,
+    "caption": "Divjaka, 2018, 25 x 20 cm, olej na plátně"
+  },
+  {
     "name": "divoka-sarka.jpg",
     "width": 2830,
     "height": 3351,
@@ -46,6 +58,12 @@
     "width": 3595,
     "height": 2994,
     "caption": "Fairy Pools, 2018, 180 x 160 cm, olej na plátně"
+  },
+  {
+    "name": "hladina.jpg",
+    "width": 6420,
+    "height": 3970,
+    "caption": "Hladina, 2018, 40 x 25 cm, olej na plátně, soukromá sbírka"
   },
   {
     "name": "choteborsky-buk.jpg",
@@ -102,10 +120,22 @@
     "caption": "Kamenný potok, 2017, 110 x 70 cm, olej na plátně, soukromá sbírka"
   },
   {
+    "name": "kanarske-ostrovy.jpg",
+    "width": 4266,
+    "height": 2309,
+    "caption": "Kanárské ostrovy, 2016, 45 x 25 cm, olej na plátně"
+  },
+  {
     "name": "kanon-ve-wadi-rum.jpg",
     "width": 2764,
     "height": 3573,
     "caption": "Kaňon ve Wadi Rum, 2018, 35 x 45 cm, olej na plátně"
+  },
+  {
+    "name": "komanske-jezero.jpg",
+    "width": 3608,
+    "height": 2656,
+    "caption": "Komanské jezero, 2018, 40 x 30 cm, olej na plátně, soukromá sbírka"
   },
   {
     "name": "krkonose.jpg",
@@ -168,6 +198,12 @@
     "caption": "Mumlavský vodopád, 2017, 40 x 35 cm, olej na plátně"
   },
   {
+    "name": "na-hladine.jpg",
+    "width": 3601,
+    "height": 2803,
+    "caption": "Na hladině, 2019, 65 x 55 cm, olej na plátně, soukromá sbírka"
+  },
+  {
     "name": "na-rosnicce.jpg",
     "width": 2800,
     "height": 3810,
@@ -199,8 +235,8 @@
   },
   {
     "name": "obri-dul.jpg",
-    "width": 1757,
-    "height": 1758,
+    "width": 4392,
+    "height": 4383,
     "caption": "Obří Důl, 2018, 20 x 20 cm, olej na plátně"
   },
   {
@@ -282,6 +318,12 @@
     "caption": "Rokle Doubravy, 2016, 20 x 30 cm, olej na plátně, soukromá sbírka"
   },
   {
+    "name": "rybnik.jpg",
+    "width": 5553,
+    "height": 4313,
+    "caption": "Rybník, 2018, 30 x 25 cm, olej na plátně"
+  },
+  {
     "name": "rybnik-v-novohradskych-horach.jpg",
     "width": 3808,
     "height": 2736,
@@ -292,6 +334,12 @@
     "width": 3677,
     "height": 2393,
     "caption": "Skalní potok, 2017, 45 x 30 cm, olej na plátně"
+  },
+  {
+    "name": "storr.jpg",
+    "width": 4524,
+    "height": 2840,
+    "caption": "Storr, 2018, 40 x 25 cm, olej na plátně, soukromá sbírka"
   },
   {
     "name": "svitavske-vrby.jpg",
@@ -312,6 +360,12 @@
     "caption": "Tenerife, 2018, 80 x 60 cm, olej na plátně"
   },
   {
+    "name": "the-blue-eye.jpg",
+    "width": 3283,
+    "height": 2519,
+    "caption": "The Blue Eye, 2018, 130 x 80 cm, olej na plátně, soukromá sbírka"
+  },
+  {
     "name": "udoli-doubravy.jpg",
     "width": 4008,
     "height": 2673,
@@ -328,6 +382,12 @@
     "width": 4013,
     "height": 2994,
     "caption": "Velká Deštná, 2017, 40 x 30 cm, olej na plátně"
+  },
+  {
+    "name": "vltava.jpg",
+    "width": 6093,
+    "height": 3772,
+    "caption": "Vltava, 2018, 40 x 25 cm, olej na plátně, soukromá sbírka"
   },
   {
     "name": "vodopad.jpg",
@@ -354,9 +414,21 @@
     "caption": "Wadi Rum, 2018, 40 x 20 cm, olej na plátně"
   },
   {
+    "name": "wadi-rum-4.jpg",
+    "width": 3730,
+    "height": 2130,
+    "caption": "Wadi Rum, 2018, 40 x 20 cm, olej na plátně"
+  },
+  {
     "name": "zimni.jpg",
     "width": 3420,
     "height": 2662,
     "caption": "Zimní, 2018, 180 x 140 cm, olej na plátně"
+  },
+  {
+    "name": "zrcadleni.jpg",
+    "width": 3129,
+    "height": 2557,
+    "caption": "Zrcadlení, 2019, 30 x 25 cm, olej na plátně"
   }
 ]

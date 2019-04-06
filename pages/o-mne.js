@@ -28,7 +28,8 @@ forem je základním puzení tvorby.</p>
             Akademie výtvarných umění<br />
             Ateliér Malba III prof. Michaela Rittsteina<br />
             Ateliér Malba IV prof. Martina Mainera<br/>
-            Ateliér Grafika I doc. Dalibora Smutného
+            Ateliér Grafika I doc. Dalibora Smutného<br/>
+            Ateliér Malba III Josefa Bolfa
           </td>
         </tr>
         <tr>

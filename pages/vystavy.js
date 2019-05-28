@@ -3,6 +3,24 @@ import Layout from '../components/layout'
 export default () => (
   <Layout>
     <h2>Aktuální</h2>
+
+    <p>
+      Dny otevřených dveří AVU<br />
+      Ateliér č. 32<br />
+      30. 5. - 2. 6. 2019<br /><br />
+    </p>
+    <img src="../static/posters/dny-otevrenych-dveri-avu-2019.jpg" alt="Pozvánka na Dny otevřených dveří AVU 2019"></img>
+
+    <p>
+      Polabský Montmartre<br />
+      Panská zahrada, Brandýs nad Labem<br />
+      1. 6. 2019 od 10:00 do 20:00<br /><br />
+      <a href="https://www.facebook.com/events/540310869783558/" title="Polabský Montmartre - událost na Facebooku">
+        https://www.facebook.com/events/540310869783558/
+      </a>
+    </p>
+    <img src="../static/posters/polabsky-montmartre-brandys-nad-labem-2019.jpg" alt="Pozvánka na Polabský Montmartre 2019"></img>
+
     <p>
       Generace<br />
       Galerie Kooperativy, Praha<br />
@@ -12,21 +30,6 @@ export default () => (
       </a>
     </p>
     <img src="../static/posters/generace-kooperativa-praha-2019.png" alt="Pozvánka na výstavu Generace 2019"></img>
-
-    <h2>Plánované</h2>
-    <table>
-      <tbody>
-        <tr>
-          <th>2019</th>
-          <td>
-            Festival Polabský Montmartre, Brandýs nad Labem<br/>
-            1. 6. 2019 od 10 do 20 hodin<br/>
-            <a href="https://www.facebook.com/events/540310869783558/" title="Událost na Facebooku - Festival Polabský Montmartre">
-              https://www.facebook.com/events/540310869783558/
-            </a>
-          </td></tr>
-      </tbody>
-    </table>
 
     <h2>Samostatné výstavy</h2>
     <table>

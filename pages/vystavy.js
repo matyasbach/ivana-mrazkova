@@ -5,21 +5,14 @@ export default () => (
     <h2>Aktuální</h2>
 
     <p>
-      Dny otevřených dveří AVU<br />
-      Ateliér č. 32<br />
-      30. 5. - 2. 6. 2019<br /><br />
-    </p>
-    <img src="../static/posters/dny-otevrenych-dveri-avu-2019.jpg" alt="Pozvánka na Dny otevřených dveří AVU 2019"></img>
-
-    <p>
-      Polabský Montmartre<br />
-      Panská zahrada, Brandýs nad Labem<br />
-      1. 6. 2019 od 10:00 do 20:00<br /><br />
-      <a href="https://www.facebook.com/events/540310869783558/" title="Polabský Montmartre - událost na Facebooku">
-        https://www.facebook.com/events/540310869783558/
+      Po proudu<br />
+      Art Café Liberec<br />
+      28. 6. - 31. 8. 2019<br /><br />
+      <a href="https://www.facebook.com/events/346906415995674/" title="Po proudu - událost na Facebooku">
+        https://www.facebook.com/events/346906415995674/
       </a>
     </p>
-    <img src="../static/posters/polabsky-montmartre-brandys-nad-labem-2019.jpg" alt="Pozvánka na Polabský Montmartre 2019"></img>
+    <img src="../static/posters/po-proudu-art-cafe-liberec-2019.jpg" alt="Pozvánka na výstavu v Art Café Liberec"></img>
 
     <p>
       Generace<br />

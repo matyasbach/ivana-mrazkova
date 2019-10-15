@@ -9,9 +9,9 @@ export default () => (
     <img src="/static/images/ivana.jpg" width="300" />
     <p className="born">*14. 5. 1995 Havlíčkův Brod</p>
     <p>Obraz poskytuje jedinečnou možnost vyjádření, podává výpovědi o samotném
-autorovi i námětu, který zobrazuje a hraje významnou roli v mezilidské
+autorovi i námětu, který zobrazuje a hraje významnou roli v&nbsp;mezilidské
 komunikaci a vzájemném sdílení. Barvy nahrazují slova a pomáhají nám
-pojmout, poznat a procítit ten neuchopitelný svět kolem nás i v nás.
+pojmout, poznat a procítit ten neuchopitelný svět kolem nás i v&nbsp;nás.
 Když člověk navštíví nějakou oblast, neodnáší si pouze vizuální vzpomínku
 na to, co viděl, ale prožitek a specifičnost místa se do něj zapíše na několika
 dalších rovinách, přičemž ovlivní a prohloubí jeho vnímání. Naše těla i ostatní
@@ -39,6 +39,7 @@ forem je základním puzení tvorby.</p>
       </tbody>
     </table>
     <h2>Kontakt</h2>
+    <p>Obrazy jsou dostupné k&nbsp;prodeji. V případě zájmu nebo jakéhokoliv dotazu mě neváhejte kontaktovat.</p>
     <a href="mailto:i-mrazkova@seznam.cz"><span className="icon"><FontAwesomeIcon icon={faEnvelope} size="2x" fixedWidth/></span>i-mrazkova@seznam.cz</a><br/>
     <a href="callto:00420735849747"><span className="icon"><FontAwesomeIcon icon={faMobileAlt} size="2x" fixedWidth/></span>+420 735 849 747</a><br/>
     <a href="https://www.facebook.com/Ivana-Mrázková-2058171554193695"><span className="icon"><FontAwesomeIcon icon={faFacebookSquare} size="2x" fixedWidth/></span>Ivana Mrázková</a><br/>

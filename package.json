@@ -4,27 +4,24 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.8",
-    "@fortawesome/free-brands-svg-icons": "^5.5.0",
-    "@fortawesome/free-regular-svg-icons": "^5.5.0",
-    "@fortawesome/free-solid-svg-icons": "^5.5.0",
-    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@zeit/next-css": "^1.0.1",
-    "cross-env": "^5.2.0",
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-image-lightbox": "^5.1.0",
-    "react-photo-gallery": "^6.2.2"
+    "next": "^9.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-image-lightbox": "^5.1.1",
+    "react-photo-gallery": "^6.3.4"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
     "export": "npm run build && next export",
-    "start-unix": "next start -p $PORT",
-    "start-windows": "next start -p %PORT%",
-    "start": "npm run start-windows"
+    "start": "next start"
   },
   "keywords": [
     "obrazy",

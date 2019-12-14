@@ -5,6 +5,16 @@ export default () => (
     <h2>Aktuální</h2>
 
     <p>
+      V kapce vody<br />
+      Galerie na Miladě, Praha<br />
+      28. 11. 2019 - 17. 1. 2020<br /><br />
+      <a href="https://www.praha7.cz/ivana-mrazkova-v-kapce-vody/" title="Praha 7 - Galerie na Miladě">
+        https://www.praha7.cz/ivana-mrazkova-v-kapce-vody/
+      </a>
+    </p>
+    <img src="../static/posters/v-kapce-vody-galerie-na-milade-praha-2019.png" title="Pozvánka na výstavu V kapce vody" />
+
+    <p>
       Dialogy<br />
       Galerie Kooperativy, Praha<br />
       25. 10. - 2. 2. 2020<br /><br />
@@ -13,6 +23,16 @@ export default () => (
       </a>
     </p>
     <img src="../static/posters/dialogy-kooperativa-praha-2019.png" alt="Pozvánka na výstavu Dialogy 2019"></img>
+
+    <p>
+      Malba III<br />
+      Galerie Millenium, Praha<br />
+      20. 11. 2019 - 5. 1. 2020<br /><br />
+      <a href="http://www.gallerymillennium.cz/soucasna_vystava.html" title="Galerie Millenium">
+        http://www.gallerymillennium.cz/soucasna_vystava.html
+      </a>
+    </p>
+    <img src="../static/posters/malba-III-praha-2019.jpg" alt="Plakát k výstavě Malba III"></img>
 
     <h2>Samostatné výstavy</h2>
     <table>

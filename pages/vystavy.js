@@ -5,6 +5,16 @@ export default () => (
     <h2>Aktuální</h2>
 
     <p>
+      Na Hladině<br />
+      Galerie FlexUp, Lípová 10, Praha 2<br />
+      19. 12. 2019 - 30. 1. 2020<br /><br />
+      <a href="https://www.facebook.com/events/460683267926157/" title="Výstava Na Hladině - událost na facebooku">
+        https://www.facebook.com/events/460683267926157/
+      </a>
+    </p>
+    <img src="../static/posters/na-hladine-flexup-praha-2019.jpg" title="Pozvánka na výstavu Na Hladině" />
+
+    <p>
       V kapce vody<br />
       Galerie na Miladě, Praha<br />
       28. 11. 2019 - 17. 1. 2020<br /><br />

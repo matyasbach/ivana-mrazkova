@@ -3,8 +3,8 @@ import Lightbox from 'react-image-lightbox';
 
 import Layout from '../components/layout'
 
-import images from '../static/pictures/pictures'
-import imagesGrouped from '../static/pictures/pictures-grouped'
+import images from '../data/pictures'
+import imagesGrouped from '../data/pictures-grouped'
 
 const imagePath = "/static/pictures/"
 const groupedImagedWithSrcPaths = imagesGrouped.map(imageGroup => 

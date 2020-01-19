@@ -1,0 +1,198 @@
+[
+  {
+    "title": "U Pramene",
+    "type": "solo",
+    "startDate": "2020-01-23",
+    "endDate": "2020-04-22",
+    "place": "Divadlo Komedie, Praha",
+    "poster": "u-pramene-divadlo-komedie-praha-2020.jpg",
+    "posterTitle": "Pozvánka na výstavu U Pramene",
+    "link": "https://www.mestskadivadlaprazska.cz/presahy/vytvarne-umeni/",
+    "linkTitle": "Městská divadla pražská - výtvarné umění"
+  },
+  {
+    "title": "In Flow",
+    "type": "solo",
+    "startDate": "2020-01-15",
+    "endDate": "2020-03-30",
+    "place": "Idea Delivery Lab, Praha",
+    "detailedPlace": "Idea Delivery Lab, Štefánikova 32, Praha 5",
+    "poster": "in-flow-idea-delivery-lab-praha-2020.jpg",
+    "posterTitle": "Pozvánka na výstavu In Flow",
+    "link": "https://www.facebook.com/events/1318466808347615/",
+    "linkTitle": "Výstava In Flow - událost na facebooku"
+  },
+  {
+    "title": "Na Hladině",
+    "type": "solo",
+    "startDate": "2019-12-19",
+    "endDate": "2020-01-30",
+    "place": "Galerie FlexUp, Praha",
+    "detailedPlace": "Galerie FlexUp, Lípová 10, Praha 2",
+    "poster": "na-hladine-flexup-praha-2019.jpg",
+    "posterTitle": "Pozvánka na výstavu Na Hladině",
+    "link": "https://www.facebook.com/events/460683267926157/",
+    "linkTitle": "Výstava Na Hladině - událost na facebooku"
+  },
+  {
+    "title": "Dialogy",
+    "type": "group",
+    "startDate": "2019-10-25",
+    "endDate": "2020-02-02",
+    "place": "Galerie Kooperativy, Praha",
+    "poster": "dialogy-kooperativa-praha-2019.png",
+    "posterTitle": "Pozvánka na výstavu Dialogy 2019",
+    "link": "https://www.koop.cz/pojistovna-kooperativa/galerie-kooperativy",
+    "linkTitle": "Galerie Kooperativy"
+  },
+  {
+    "title": "V kapce vody",
+    "type": "solo",
+    "startDate": "2019",
+    "place": "Galerie na Miladě, Praha"
+  },
+  {
+    "title": "Po proudu",
+    "type": "solo",
+    "startDate": "2019",
+    "place": "Art Café, Liberec"
+  },
+  {
+    "title": "Lesem i vodou",
+    "type": "solo",
+    "startDate": "2019",
+    "place": "Komunitní centrum Háta, Ledeč nad Sázavou"
+  },
+  {
+    "title": "Putování krajinou",
+    "type": "solo",
+    "startDate": "2019",
+    "place": "Ministerstvo zemědělství, Praha"
+  },
+  {
+    "title": "Krajina",
+    "type": "solo",
+    "startDate": "2018",
+    "place": "JazyGo, Praha"
+  },
+  {
+    "title": "Tam a zpět",
+    "type": "solo",
+    "startDate": "2018",
+    "place": "Galerie Thambos, Plzeň"
+  },
+  {
+    "title": "Náruč lesa",
+    "type": "solo",
+    "startDate": "2018",
+    "place": "Ministerstvo zemědělství, Praha"
+  },
+  {
+    "title": "Lesem Proudem",
+    "type": "solo",
+    "startDate": "2017",
+    "place": "Dobrá Trafika, Praha"
+  },
+  {
+    "title": "Malba III",
+    "type": "group",
+    "startDate": "2019",
+    "place": "Galerie Millennium, Praha"
+  },
+  {
+    "title": "Spectators Disease",
+    "type": "group",
+    "startDate": "2019",
+    "place": "Polansky Gallery/Holešovická šachta, Praha"
+  },
+  {
+    "title": "Generace",
+    "type": "group",
+    "startDate": "2019",
+    "place": "Galerie Kooperativy, Praha"
+  },
+  {
+    "title": "Pohled do krajiny",
+    "type": "group",
+    "startDate": "2019",
+    "place": "Galerie České spořitelny, Praha"
+  },
+  {
+    "title": "Mánes Mánesu",
+    "type": "group",
+    "startDate": "2018",
+    "place": "Galerie Špejchar, Chomutov"
+  },
+  {
+    "title": "Rozbřesk - současná krajinomalba",
+    "type": "group",
+    "startDate": "2018",
+    "place": "Východočeská galerie v Pardubicích"
+  },
+  {
+    "title": "Art Prague",
+    "type": "group",
+    "startDate": "2018",
+    "place": "Clam-Gallasův palác, Praha"
+  },
+  {
+    "title": "Členská výstava S.V.U. Mánes",
+    "type": "group",
+    "startDate": "2018",
+    "place": "Galerie Diamant"
+  },
+  {
+    "title": "Světlo v obraze: český impresionismus",
+    "type": "group",
+    "startDate": "2017",
+    "place": "Jízdárna Pražského hradu"
+  },
+  {
+    "title": "ATRIBUT",
+    "type": "group",
+    "startDate": "2017",
+    "place": "Galerie J°CEJKA, Praha"
+  },
+  {
+    "title": "Design piknik",
+    "type": "group",
+    "startDate": "2017",
+    "place": "Počátky"
+  },
+  {
+    "title": "Malíři současnosti - Sochaři minulosti",
+    "type": "group",
+    "startDate": "2017",
+    "place": "Galerie Diamant",
+    "note": "Výstava ke 130. výročí založení spolku S.V.U. Mánes"
+  },
+  {
+    "title": "Krajina 2017",
+    "type": "group",
+    "startDate": "2017",
+    "place": "Nová galerie, Praha"
+  },
+  {
+    "title": "Pokoje",
+    "type": "group",
+    "startDate": "2016",
+    "note": "Ateliérová výstava Malby 3"
+  },
+  {
+    "title": "Těsně vedle",
+    "type": "group",
+    "startDate": "2015",
+    "place": "Galerie Josefa Lieslera v Kadani",
+    "note": "Ateliérová výstava Malby 3"
+  },
+  {
+    "title": "Cafe Decada v Praze společně s Terezou Zichovou",
+    "type": "group",
+    "startDate": "2015"
+  },
+  {
+    "title": "PETROHRADSKÁ Opening season #159!",
+    "type": "group",
+    "startDate": "2015"
+  }
+]

@@ -37,8 +37,8 @@ const FeaturedExhibition = ({ title, place, detailedPlace, startDate, endDate, l
     <p>
       {title}<br />
       {detailedPlace || place}<br />
-      {new Date(startDate).toLocaleDateString()} - {new Date(endDate).toLocaleDateString()}<br /><br />
-      {link && <a href={link} title={linkTitle}>{link}</a>}
+      {new Date(startDate).toLocaleDateString()} - {new Date(endDate).toLocaleDateString()}
+      {link && <React.Fragment><br /><br /><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
     </p>
     {poster && <img src={postersPath + poster} title={posterTitle} />}
     <style jsx>{`

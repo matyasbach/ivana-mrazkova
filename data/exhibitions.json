@@ -1,5 +1,34 @@
 [
   {
+    "title": "Na vlně",
+    "type": "solo",
+    "startDate": "2020-10-12",
+    "endDate": "2020-11-06",
+    "place": "Galerie Bohéma, Olomouc",
+    "poster": "na-vlne-olomouc.jpg",
+    "posterTitle": "Pozvánka na výstavu Na vlně"
+  },
+  {
+    "title": "Diplomanti AVU + hosté 1970 2020",
+    "type": "group",
+    "startDate": "2020-09-17",
+    "endDate": "2020-09-27",
+    "place": "Akademie výtvarných umění, Praha",
+    "poster": "diplomanti-avu-2020.jpg",
+    "posterTitle": "Pozvánka na výstavu Diplomanti AVU"
+  },
+  {
+    "title": "BREATHE",
+    "type": "group",
+    "startDate": "2020-09-02",
+    "endDate": "2020-09-13",
+    "place": "The Brick Lane Gallery, London",
+    "poster": "stream-uholicky.jpg",
+    "posterTitle": "Stream in a village Úholičky",
+    "link": "https://thebricklanegallery.com/breathe-2nd-13th-september/",
+    "linkTitle": "The Brick Lane Gallery - výstava BREATHE"
+  },
+  {
     "title": "Příliv",
     "type": "solo",
     "startDate": "2020-02-24",

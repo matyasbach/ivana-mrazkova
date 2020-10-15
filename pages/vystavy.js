@@ -32,12 +32,12 @@ const FeaturedExhibitionsGroup = (title, exhibitions) => (
   )
 )
 
-const FeaturedExhibition = ({ title, place, detailedPlace, startDate, endDate, link, linkTitle, poster, posterTitle }) => (
+const FeaturedExhibition = ({ title, place, detailedPlace, dateNote, startDate, endDate, link, linkTitle, poster, posterTitle }) => (
   <div key={title}>
     <p>
       {title}<br />
       {detailedPlace || place}<br />
-      {new Date(startDate).toLocaleDateString()} - {new Date(endDate).toLocaleDateString()}
+      {dateNote || `${new Date(startDate).toLocaleDateString()} - ${new Date(endDate).toLocaleDateString()}`}
       {link && <React.Fragment><br /><br /><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
     </p>
     {poster && <img src={postersPath + poster} title={posterTitle} />}

@@ -1,9 +1,31 @@
 [
   {
+    "title": "Vlnění",
+    "type": "solo",
+    "startDate": "2020-11-25",
+    "endDate": "2020-12-31",
+    "place": "Galerie Sčigol, Praha"
+  },
+  {
+    "title": "Skupinová výstava",
+    "type": "group",
+    "dateNote": "říjen-prosinec 2020",
+    "startDate": "2020-10-17",
+    "endDate": "2020-12-31",
+    "place": "Rossocinabro Gallery, Řím"
+  },
+  {
+    "title": "Skupinová výstava",
+    "type": "group",
+    "startDate": "2020-10-27",
+    "endDate": "2020-11-09",
+    "place": "The Brick Lane Gallery, Londýn"
+  },
+  {
     "title": "Na vlně",
     "type": "solo",
-    "startDate": "2020-10-12",
-    "endDate": "2020-11-06",
+    "dateNote": "Vzhledem k aktuální situaci se vernisáž i výstava odkládá. O novém termínu Vás budeme včas informovat.",
+    "startDate": "2021-12-31",
     "place": "Galerie Bohéma, Olomouc",
     "poster": "na-vlne-olomouc.jpg",
     "posterTitle": "Pozvánka na výstavu Na vlně"
@@ -22,7 +44,7 @@
     "type": "group",
     "startDate": "2020-09-02",
     "endDate": "2020-09-13",
-    "place": "The Brick Lane Gallery, London",
+    "place": "The Brick Lane Gallery, Londýn",
     "poster": "stream-uholicky.jpg",
     "posterTitle": "Stream in a village Úholičky",
     "link": "https://thebricklanegallery.com/breathe-2nd-13th-september/",

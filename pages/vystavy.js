@@ -97,11 +97,11 @@ const PastExhibition = ({ title, place, startDate, note }) => [
 
 const withNonBreakingCharacters = text => text.replace(" ", "\u00A0").replace("-", "\u2011");
 
-export default () => (
-  <Layout>
-    {FeaturedExhibitionsGroup("Aktuální", groupedExhibitions.current)}
-    {FeaturedExhibitionsGroup("Plánované", groupedExhibitions.planned)}
-    {PastExhibitionsGroup("Samostatné výstavy", groupedExhibitions.pastSolo)}
-    {PastExhibitionsGroup("Skupinové výstavy", groupedExhibitions.pastGroup)}
-  </Layout>
-)
+const Exhibitions = () => <Layout>
+  {FeaturedExhibitionsGroup("Aktuální", groupedExhibitions.current)}
+  {FeaturedExhibitionsGroup("Plánované", groupedExhibitions.planned)}
+  {PastExhibitionsGroup("Samostatné výstavy", groupedExhibitions.pastSolo)}
+  {PastExhibitionsGroup("Skupinové výstavy", groupedExhibitions.pastGroup)}
+</Layout>;
+
+export default Exhibitions;

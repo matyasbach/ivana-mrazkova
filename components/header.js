@@ -6,7 +6,7 @@ const Header = () => (
   <div className="header-wrapper">
     <div className="header-inner">
       <Link href="/">
-        <a>Ivana Mrázková</a>
+        <a>Ivana Mrázková Bachová</a>
       </Link>
       <Menu />
     </div>

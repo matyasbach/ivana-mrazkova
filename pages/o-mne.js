@@ -22,7 +22,7 @@ forem je základním puzení tvorby.</p>
   <table>
     <tbody>
       <tr>
-        <th>2014-dosud</th>
+        <th>2014-2020</th>
         <td>
           Akademie výtvarných umění<br />
           Ateliér Malba III prof. Michaela Rittsteina<br />
@@ -41,7 +41,7 @@ forem je základním puzení tvorby.</p>
   <p>Obrazy jsou dostupné k&nbsp;prodeji. V případě zájmu nebo jakéhokoliv dotazu mě neváhejte kontaktovat.</p>
   <a href="mailto:i-mrazkova@seznam.cz"><span className="icon"><FontAwesomeIcon icon={faEnvelope} size="2x" fixedWidth/></span>i-mrazkova@seznam.cz</a><br/>
   <a href="callto:00420735849747"><span className="icon"><FontAwesomeIcon icon={faMobileAlt} size="2x" fixedWidth/></span>+420 735 849 747</a><br/>
-  <a href="https://www.facebook.com/Ivana-Mrázková-2058171554193695"><span className="icon"><FontAwesomeIcon icon={faFacebookSquare} size="2x" fixedWidth/></span>Ivana Mrázková</a><br/>
+  <a href="https://www.facebook.com/Ivana-Mrázková-2058171554193695"><span className="icon"><FontAwesomeIcon icon={faFacebookSquare} size="2x" fixedWidth/></span>Ivana Mrázková Bachová</a><br/>
   <a href="https://www.instagram.com/ivana.mrazkova/"><span className="icon"><FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth/></span>ivana.mrazkova</a><br/>
   <style jsx>{`
     img {

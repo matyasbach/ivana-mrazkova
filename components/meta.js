@@ -5,7 +5,7 @@ const Meta = props => <div>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charSet="utf-8" />
     <meta name="google-site-verification" content="lR8OmVZ9TsU4JhFWjJgX9iOk6-P3t1x2Lx_8SvNzf-Q" />
-    <title>Ivana Mrázková{props.title && ": " + props.title} - ivana-mrazkova.cz</title>
+    <title>Ivana Mrázková Bachová{props.title && ": " + props.title} - ivana-mrazkova.cz</title>
   </Head>
   <style jsx global>{`
     * {

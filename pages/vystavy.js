@@ -15,7 +15,7 @@ const groupedExhibitions = (() => {
     const endDate = new Date(exhibition.endDate);
     
     if (startDate > today) planned.push(exhibition)
-    else if (endDate > today) current.push(exhibition)
+    else if (endDate > today || !(exhibition.startDate || exhibition.endDate)) current.push(exhibition)
     else if (exhibition.type == "group") pastGroup.push(exhibition)
     else pastSolo.push(exhibition)
   });
@@ -36,9 +36,10 @@ const FeaturedExhibition = ({ title, place, detailedPlace, dateNote, startDate, 
   <div key={title}>
     <p>
       {title}<br />
-      {detailedPlace || place}<br />
-      {dateNote || `${new Date(startDate).toLocaleDateString()} - ${new Date(endDate).toLocaleDateString()}`}
-      {link && <React.Fragment><br /><br /><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
+      {detailedPlace && <pre>{detailedPlace}</pre> || place}<br />
+      {dateNote && <pre className="date-note">{dateNote}</pre>}
+      {!dateNote && startDate && endDate && `${new Date(startDate).toLocaleDateString()} - ${new Date(endDate).toLocaleDateString()}`}
+      {link && <React.Fragment><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
     </p>
     {poster && <img src={postersPath + poster} title={posterTitle} />}
     <style jsx>{`
@@ -53,6 +54,13 @@ const FeaturedExhibition = ({ title, place, detailedPlace, dateNote, startDate, 
         object-fit: contain;
         display: flex;
         margin: 50px auto;
+      }
+
+      pre {
+        margin-top: 0.5em;
+      }
+      .date-note {
+        color: #f00;
       }
 
       @media only screen and (min-width: 750px) {

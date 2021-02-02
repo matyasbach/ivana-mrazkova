@@ -1,12 +1,22 @@
 [
   {
+    "title": "Stálá výstava v realitní kanceláři Evropa Podolí",
+    "type": "solo",
+    "place": "RK Evropa, Podolí",
+    "detailedPlace": "Prohlídka je možná po telefonické domluvě s jednatelem Petrem Bachem 777 01 13 18.\nK vidění jsou tyto čtyři obrazy s vodní tématikou.",
+    "poster": "reality-bach.jpg",
+    "posterTitle": "Pozvánka na stálou výstavu v RK Evropa Podolí",
+    "link": "https://www.jinarealitka.com/",
+    "linkTitle": "Realitní kancelář Evropa Podolí - Jiná realitka"
+  },
+  {
     "title": "Vlnění",
     "type": "solo",
-    "startDate": "2021-01-15",
-    "endDate": "2021-02-04",
+    "startDate": "2021-03-15",
     "place": "Galerie Sčigol, Praha",
     "poster": "vlneni-scigol-praha-2020.jpg",
-    "posterTitle": "Pozvánka na výstavu Vlnění"
+    "posterTitle": "Pozvánka na výstavu Vlnění",
+    "dateNote": "Vzhledem k současné situaci se výstava odkládá. O změně termínu Vás budeme informovat."
   },
   {
     "title": "Reflections of the Sky",

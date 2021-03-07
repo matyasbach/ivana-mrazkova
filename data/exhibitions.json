@@ -1,5 +1,35 @@
 [
   {
+    "title": "Infinite dreams",
+    "type": "online",
+    "startDate": "2021-02-01",
+    "endDate": "2021-06-01",
+    "place": "Contemporary Art Curator Magazine",
+    "poster": "infinite-dreams-2021.jpg",
+    "posterTitle": "Pozvánka na online výstavu Infinite dreams",
+    "link": "https://www.contemporaryartcuratormagazine.com/online-exhibition-infinite-dreams/ivana-bachova",
+    "linkTitle": "Výstava"
+  },
+  {
+    "title": "Vlnění",
+    "type": "solo",
+    "endDate": "2021-03-18",
+    "place": "Galerie ŠČigol, Praha",
+    "poster": "vlneni-scigol-praha-2021.jpg",
+    "posterTitle": "Pozvánka na výstavu Vlnění",
+    "dateNote": "Výstava prodloužena do 18. 3."
+  },
+  {
+    "title": "Na vlně",
+    "type": "solo",
+    "endDate": "2021-03-21",
+    "place": "Galerie Rubikon, Olomouc",
+    "detailedPlace": "Galerie Rubikon, Olomouc\nvzhledem k současné situaci je galerie uzavřena, ale velkou část výstavy lze shlédnout ve výlohách.",
+    "poster": "na-vlne-rubikon-olomouc-2021.jpg",
+    "posterTitle": "Pozvánka na výstavu Na vlně",
+    "dateNote": "Výstava prodloužena"
+  },
+  {
     "title": "Stálá výstava v realitní kanceláři Evropa Podolí",
     "type": "solo",
     "place": "RK Evropa, Podolí",
@@ -8,15 +38,6 @@
     "posterTitle": "Pozvánka na stálou výstavu v RK Evropa Podolí",
     "link": "https://www.jinarealitka.com/",
     "linkTitle": "Realitní kancelář Evropa Podolí - Jiná realitka"
-  },
-  {
-    "title": "Vlnění",
-    "type": "solo",
-    "startDate": "2021-03-15",
-    "place": "Galerie Sčigol, Praha",
-    "poster": "vlneni-scigol-praha-2020.jpg",
-    "posterTitle": "Pozvánka na výstavu Vlnění",
-    "dateNote": "Vzhledem k současné situaci se výstava odkládá. O změně termínu Vás budeme informovat."
   },
   {
     "title": "Reflections of the Sky",

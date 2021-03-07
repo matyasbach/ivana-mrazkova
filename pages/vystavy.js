@@ -6,21 +6,25 @@ const postersPath = "../static/posters/"
 const groupedExhibitions = (() => {
   const planned = []
   const current = []
-  const pastGroup = [];
+  const online = []
+  const pastGroup = []
   const pastSolo = []
+  const pastOnline = []
 
   const today = new Date();
   allExhibitions.forEach(exhibition => {
     const startDate = new Date(exhibition.startDate);
     const endDate = new Date(exhibition.endDate);
     
-    if (startDate > today) planned.push(exhibition)
+    if (endDate > today && exhibition.type == "online") online.push(exhibition)
+    else if (startDate > today) planned.push(exhibition)
     else if (endDate > today || !(exhibition.startDate || exhibition.endDate)) current.push(exhibition)
     else if (exhibition.type == "group") pastGroup.push(exhibition)
+    else if (exhibition.type == "online") pastOnline.push(exhibition)
     else pastSolo.push(exhibition)
   });
 
-  return { planned, current, pastSolo, pastGroup };
+  return { planned, current, online, pastSolo, pastGroup, pastOnline };
 })();
 
 const FeaturedExhibitionsGroup = (title, exhibitions) => (
@@ -35,11 +39,11 @@ const FeaturedExhibitionsGroup = (title, exhibitions) => (
 const FeaturedExhibition = ({ title, place, detailedPlace, dateNote, startDate, endDate, link, linkTitle, poster, posterTitle }) => (
   <div key={title}>
     <p>
-      {title}<br />
-      {detailedPlace && <pre>{detailedPlace}</pre> || place}<br />
-      {dateNote && <pre className="date-note">{dateNote}</pre>}
-      {!dateNote && startDate && endDate && `${new Date(startDate).toLocaleDateString()} - ${new Date(endDate).toLocaleDateString()}`}
-      {link && <React.Fragment><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
+      <h3>{title}</h3><br />
+      {detailedPlace && <pre>{detailedPlace}</pre> || place}
+      {dateNote && <React.Fragment><br /><pre className="date-note">{dateNote}</pre></React.Fragment>}
+      {!dateNote && startDate && endDate && <React.Fragment><br />{new Date(startDate).toLocaleDateString()} - {new Date(endDate).toLocaleDateString()}</React.Fragment>}
+      {link && <React.Fragment><br /><a href={link} title={linkTitle}>{link}</a></React.Fragment>}
     </p>
     {poster && <img src={postersPath + poster} title={posterTitle} />}
     <style jsx>{`
@@ -53,7 +57,7 @@ const FeaturedExhibition = ({ title, place, detailedPlace, dateNote, startDate, 
         max-height: 90vh;
         object-fit: contain;
         display: flex;
-        margin: 50px auto;
+        margin: 25px auto 50px;
       }
 
       pre {
@@ -108,8 +112,10 @@ const withNonBreakingCharacters = text => text.replace(" ", "\u00A0").replace("-
 const Exhibitions = () => <Layout>
   {FeaturedExhibitionsGroup("Aktuální", groupedExhibitions.current)}
   {FeaturedExhibitionsGroup("Plánované", groupedExhibitions.planned)}
+  {FeaturedExhibitionsGroup("Online", groupedExhibitions.online)}
   {PastExhibitionsGroup("Samostatné výstavy", groupedExhibitions.pastSolo)}
   {PastExhibitionsGroup("Skupinové výstavy", groupedExhibitions.pastGroup)}
+  {PastExhibitionsGroup("Online výstavy", groupedExhibitions.pastOnline)}
 </Layout>;
 
 export default Exhibitions;

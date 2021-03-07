@@ -4,7 +4,7 @@ class GeneralContent extends React.Component {
       <div>
         {this.props.children}
         <style jsx global>{`
-          .content p, .content h2, .content h3 {
+          .content p, .content h2 {
             margin-bottom: 25px;
           }
           .content h2 {
